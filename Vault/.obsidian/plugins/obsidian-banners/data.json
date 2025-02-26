@@ -1,6 +1,6 @@
 {
   "height": null,
-  "style": "solid",
+  "style": "gradient",
   "showInInternalEmbed": true,
   "internalEmbedHeight": null,
   "showInPreviewEmbed": true,
@@ -9,7 +9,7 @@
   "bannerDragModifier": "ctrl",
   "iconHorizontalAlignment": "left",
   "iconHorizontalTransform": null,
-  "iconVerticalAlignment": "center",
+  "iconVerticalAlignment": "below",
   "iconVerticalTransform": null,
   "useTwemoji": true,
   "showPreviewInLocalModal": true,

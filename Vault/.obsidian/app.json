@@ -1,9 +1,9 @@
 {
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "_data_/media",
+  "attachmentFolderPath": "./foldermedia",
   "promptDelete": false,
-  "livePreview": true,
+  "livePreview": false,
   "defaultViewMode": "source",
   "pdfExportSettings": {
     "includeName": true,
@@ -12,5 +12,33 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "showInlineTitle": false,
+  "propertiesInDocument": "source",
+  "showLineNumber": true,
+  "autoConvertHtml": false,
+  "trashOption": "local",
+  "showUnsupportedFiles": true,
+  "uriCallbacks": true,
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:set-heading",
+    "editor:insert-link",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:fold-all",
+    "editor:unfold-all",
+    "editor:insert-callout",
+    "editor:cycle-list-checklist",
+    "editor:insert-horizontal-rule",
+    "obsidian-tasks-plugin:edit-task",
+    "obsidian-tasks-plugin:toggle-done",
+    "editor:configure-toolbar"
+  ]
 }

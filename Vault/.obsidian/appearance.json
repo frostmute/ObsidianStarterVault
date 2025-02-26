@@ -1,6 +1,6 @@
 {
-  "accentColor": "",
-  "theme": "moonstone",
+  "accentColor": "#00f0cc",
+  "theme": "obsidian",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "Custom style",
@@ -8,5 +8,8 @@
     "tailwind",
     "Pinned Pages"
   ],
-  "baseFontSize": 16
+  "baseFontSize": 17,
+  "interfaceFontFamily": "Droid Sans Mono",
+  "textFontFamily": "Courier New",
+  "monospaceFontFamily": "Andale Mono"
 }
