@@ -1,10 +1,5 @@
 Adding a custom font to Android/iOS
-Share & showcase
 
-621
-
-1
-Sep 2023
 Hi, I want to share how I added a custom font to Android/iOS devices. This technique employs Obsidian’s CSS snippet feature so you do not need to install or create a custom theme.
 
 You need a WOFF2 file for your custom font. If you only have TTF file or something, convert them to WOFF2. There are plenty of tools online to do this.
