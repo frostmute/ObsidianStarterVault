@@ -53,8 +53,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -68,7 +68,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "README"
             }
           }
         ],
@@ -209,7 +209,8 @@
   },
   "active": "8264df8b7b4e9c91",
   "lastOpenFiles": [
-    "Adding a custom font to Obsidian Android iOS.md",
+    "Resources/Using 'Group By' in DataviewJS.md",
+    "Resources/Adding a custom font to Obsidian Android iOS.md",
     "Resources/Resources Dashboard.md",
     "Projects/Top Secret Project/Home.md",
     "Projects/Projects.md",
@@ -222,7 +223,7 @@
     "Projects/Data annotation.tech/Notes",
     "Projects/Data annotation.tech/Meetings",
     "Projects/Data annotation.tech",
-    "Achilles FAQ.md",
+    "Projects/Data annotation.tech/Notes/Achilles FAQ.md",
     "_data_/pinned/Tasks.md",
     "Journal/Entries/2025-02-26.md",
     "07 Unsorted/Obsidian Vault Template.md",
