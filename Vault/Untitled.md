@@ -1,4 +1,4 @@
-Adding a custom font to Android/iOS
+
 
 Hi, I want to share how I added a custom font to Android/iOS devices. This technique employs Obsidian’s CSS snippet feature so you do not need to install or create a custom theme.
 
