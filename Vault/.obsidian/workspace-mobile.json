@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Contacts/Example Contact.md",
+                "file": "Spaces/Books/Dune.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Example Contact"
+              "title": "Dune"
             }
           }
         ]
@@ -143,6 +143,7 @@
   },
   "active": "3f8e2ae954022f03",
   "lastOpenFiles": [
+    "Spaces/Contacts/Example Contact.md",
     "Spaces/Books/Dune.md",
     "Spaces/Spaces Dashboard.md",
     "Dashboard.md",
