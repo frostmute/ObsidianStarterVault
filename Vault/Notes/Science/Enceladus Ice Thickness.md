@@ -4,7 +4,7 @@ date_modified: 2023-07-21
 document_type: note
 tags: note enceladus
 ---
-[[Notes Dashboard|Notes Dashboard]] / **[[Notes/Enceladus Ice Thickness|Enceladus Ice Thickness]]**
+[[Notes Dashboard|Notes Dashboard]] / **[[Enceladus Ice Thickness|Enceladus Ice Thickness]]**
 # Enceladus Ice Thickness
 **Overview**
 Description:: The average ice thickness across the moon is thought to be about 20 to 25 km thick.
@@ -14,4 +14,4 @@ The average ice thickness across the entire moon is thought to be 20 to 25 km th
 
 
 ---
-[[Notes Dashboard|Notes Dashboard]] / **[[Notes/Enceladus Ice Thickness|Enceladus Ice Thickness]]**
+[[Notes Dashboard|Notes Dashboard]] / **[[Enceladus Ice Thickness|Enceladus Ice Thickness]]**

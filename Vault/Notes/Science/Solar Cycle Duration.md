@@ -4,7 +4,7 @@ date_modified: 2023-07-19
 document_type: note
 tags: note sun
 ---
-[[Notes Dashboard|Notes Dashboard]] / **[[Notes/Solar Cycle Duration|Solar Cycle Duration]]**
+[[Notes Dashboard|Notes Dashboard]] / **[[Solar Cycle Duration|Solar Cycle Duration]]**
 # Solar Cycle Duration
 **Overview**
 Description:: The Sun goes through an ~11-year solar cycle where solar activity changes.
@@ -14,4 +14,4 @@ Test
 
 
 ---
-[[Notes Dashboard|Notes Dashboard]] / **[[Notes/Solar Cycle Duration|Solar Cycle Duration]]**
+[[Notes Dashboard|Notes Dashboard]] / **[[Solar Cycle Duration|Solar Cycle Duration]]**

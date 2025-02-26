@@ -1,5 +1,5 @@
 {
-  "readableLineLength": false,
+  "readableLineLength": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./foldermedia",
   "promptDelete": false,
@@ -14,9 +14,9 @@
   },
   "showFrontmatter": false,
   "showInlineTitle": false,
-  "propertiesInDocument": "source",
+  "propertiesInDocument": "hidden",
   "showLineNumber": true,
-  "autoConvertHtml": false,
+  "autoConvertHtml": true,
   "trashOption": "local",
   "showUnsupportedFiles": true,
   "uriCallbacks": true,

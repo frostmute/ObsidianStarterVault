@@ -5,7 +5,7 @@ navbar_name: Dashboard
 tags: dashboard
 ---
 
-**[[Dashboard|Dashboard]]** | [[Concept Board/Concept Board|Concept Board]] | [[Journal/Journal Dashboard|Journal]] | [[Learning/Learning Dashboard|Learning]] | [[Notes/Notes Dashboard|Notes]] | [[Personal/Personal Dashboard|Personal]] | [[Projects/Projects|Projects]] | [[Resources/Resources Dashboard|Resources]] | [[Spaces/Spaces Dashboard|Spaces]]
+**[[Dashboard|Dashboard]]** | [[Concept Board/Concept Board|Concept Board]] | [[Journal/Journal Dashboard|Journal]] | [[Learning/Learning Dashboard|Learning]] | [[Notes/Notes Dashboard|Notes]] | [[Projects/Projects|Projects]] | [[Resources/Resources Dashboard|Resources]] | [[Spaces/Spaces Dashboard|Spaces]]
 # Dashboard
 >[!multi-column]
 >>[!blank-container]

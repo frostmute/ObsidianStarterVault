@@ -1,5 +1,4 @@
 [
-  "obsidian-banners",
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
   "dataview",
@@ -11,5 +10,6 @@
   "templater-obsidian",
   "obsidian-image-toolkit",
   "obsidian-linter",
-  "customjs"
+  "customjs",
+  "obsidian-minimal-settings"
 ]

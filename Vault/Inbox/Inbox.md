@@ -6,8 +6,10 @@ description: Process incoming data and information.
 document_type: inbox
 tags: inbox
 ---
+
 ```dataviewjs
 const {Navbar} = customJS;
 await Navbar.createNavbar(app, dv); 
 ```
+
 # Inbox

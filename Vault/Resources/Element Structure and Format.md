@@ -1,14 +1,23 @@
 ---
-date_created: 2023-07-11
-date_modified: 2023-07-18
+name: Element Structure and Format
+date_created: 2025-02-25
+date_modified: 2025-02-25
+document_type: resource
+tags:
+  - resource
 ---
+[[Resources/Resources Dashboard|Resources]] / **[[Resources/Element Structure and Format|Element Structure and Format]]**
+
+# Element Structure and Format
+
+**Overview**
+Description:: Examples of how to use and format the various data structures in this vault
+
+## Note
 
 > [!note] Note
 > This this page is used to view markdown formatting and can be deleted if it's not needed.
 
-```dataviewjs
-dv.view("toc", {"startingLevel": 2, "addHeader": true})
-```
 
 # Header 1
 
