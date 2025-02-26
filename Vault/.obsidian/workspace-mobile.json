@@ -4,24 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "998b6074cab9ddf1",
+        "id": "b14b54f5e8f2d391",
         "type": "tabs",
         "children": [
           {
-            "id": "3f8e2ae954022f03",
+            "id": "390b68aaaa5c98d0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_data_/pinned/Tasks.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Tasks"
+            }
+          },
+          {
+            "id": "9b4c08995dbd9673",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Books/Dune.md",
+                "file": "Resources/Resources Dashboard.md",
                 "mode": "preview",
-                "source": true
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Dune"
+              "title": "Resources Dashboard"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +124,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Journal/Entries/2025-02-25.md",
+            "file": "Resources/Resources Dashboard.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,6 +150,21 @@
           "icon": "links-going-out",
           "title": "Outgoing links"
         }
+      },
+      {
+        "id": "29ad563d51f1420a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Resources/Resources Dashboard.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
       }
     ],
     "currentTab": 0
@@ -141,10 +183,25 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "3f8e2ae954022f03",
+  "active": "9b4c08995dbd9673",
   "lastOpenFiles": [
-    "Spaces/Contacts/Example Contact.md",
+    "Projects/Top Secret Project/Home.md",
+    "Projects/Projects.md",
+    "Projects/Data annotation.tech/Home.md",
+    "Projects/Data annotation.tech/Tasks.md",
+    "Projects/Data annotation.tech/Meetings/All Meetings.md",
+    "Projects/Data annotation.tech/References.md",
+    "Projects/Data annotation.tech/Notes/All Notes.md",
+    "Projects/Data annotation.tech/Meetings/References.md",
+    "Projects/Data annotation.tech/Notes",
+    "Projects/Data annotation.tech/Meetings",
+    "Projects/Data annotation.tech",
+    "Achilles FAQ.md",
+    "_data_/pinned/Tasks.md",
+    "Journal/Entries/2025-02-26.md",
+    "07 Unsorted/Obsidian Vault Template.md",
     "Spaces/Books/Dune.md",
+    "Spaces/Contacts/Example Contact.md",
     "Spaces/Spaces Dashboard.md",
     "Dashboard.md",
     "Resources/Resources Dashboard.md",
