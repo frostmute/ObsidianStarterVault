@@ -6,7 +6,10 @@ description: Repository of projects.
 document_type: dashboard
 include_in_navbar: true
 navbar_name: Projects
-tags: dashboard projects
+tags:
+  - dashboard
+  - projects
+  - cards
 ---
 
 ```dataviewjs

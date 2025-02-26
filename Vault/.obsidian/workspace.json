@@ -13,30 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Resources Dashboard.md",
-                "mode": "source",
-                "source": true
+                "file": "Projects/Projects.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Resources Dashboard"
-            }
-          },
-          {
-            "id": "a51f21dbb66492da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Projects"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -48,6 +43,7 @@
       {
         "id": "6a5a46f35bfd6e3b",
         "type": "tabs",
+        "dimension": 56.257668711656436,
         "children": [
           {
             "id": "b086af801e8a41b7",
@@ -90,10 +86,71 @@
             }
           }
         ]
+      },
+      {
+        "id": "0e964d733e1ce9e0",
+        "type": "tabs",
+        "dimension": 19.938650306748464,
+        "children": [
+          {
+            "id": "a51f21dbb66492da",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
+      {
+        "id": "11e3bb258f66a8a0",
+        "type": "tabs",
+        "dimension": 23.803680981595093,
+        "children": [
+          {
+            "id": "3c0e7b1e7760a8e9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Projects/Projects.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.781185031185031,
+                  "repelStrength": 6.97505197505197,
+                  "linkStrength": 0.681392931392931,
+                  "linkDistance": 250,
+                  "scale": 1.0000000000000002,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Projects"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 359.5
   },
   "right": {
     "id": "a60f7122a537c574",
@@ -102,6 +159,7 @@
       {
         "id": "7e3ab805b43b8465",
         "type": "tabs",
+        "dimension": 50.897129186602875,
         "children": [
           {
             "id": "3795fe9dac32b278",
@@ -109,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Projects/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +177,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Projects"
             }
           },
           {
@@ -128,12 +186,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Projects/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Projects"
             }
           },
           {
@@ -142,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
+                "file": "Projects/Projects.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Projects"
             }
           },
           {
@@ -165,11 +223,13 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7b80c465474a1eee",
         "type": "tabs",
+        "dimension": 49.10287081339713,
         "children": [
           {
             "id": "d4cbc286e86d0bbd",
@@ -177,10 +237,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Untitled.md"
+                "file": "Projects/Projects.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Projects"
             }
           }
         ]
@@ -203,12 +263,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a51f21dbb66492da",
+  "active": "22f37e1f9d6c2be9",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Resources/Resources Dashboard.md",
-    "Resources/Test.md",
     "Dashboard.md",
+    "Resources/Resources Dashboard.md",
+    "Journal/Entries/2025-02-26.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Resources/Test.md",
     "Concept Board/Concept Board.md",
     "Projects/Projects.md",
     "Personal/Personal Dashboard.md",
@@ -233,8 +295,6 @@
     "Projects/Top Secret Project/Meetings/All Meetings.md",
     "Projects/Top Secret Project/Tasks.md",
     "Projects/Top Secret Project/Home.md",
-    "_data_/templates/project/Project boilerplate page.md",
-    "_data_/templates/project/Project feature.md",
     "Spaces/Obsidian Development",
     "Spaces/Untitled",
     "Inbox",
