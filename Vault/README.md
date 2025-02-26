@@ -45,11 +45,11 @@
 
 
 ## Setup
-- [ ] Install and enable all plugins and the minimal theme
-- [ ] Setup Recent News
-	- [ ] Add an API key to the _Dashboard > Recent News_ section and set the value of `apiKey`, you can modify other properties `newsCategory` and `articlCount`, where `newsCategory` is the cateogry of news you want to list (e.g., "space", "technology", etc...) and `articleCount` refers to the number of articles to list (note: it's recommended to keep article count at 6 or less). You can get a free API key from [GNews](https://gnews.io/)
-- [ ] Setup NASA Image of the Day
-	- [ ] Add an API key to the _Dashboard > Space Image_ of the Day section and set the value of `apiKey`. You can get a free API key from [NASA APIs](https://api.nasa.gov/)
+- [x] Install and enable all plugins and the minimal theme ✅ 2025-02-26
+- [x] Setup Recent News ✅ 2025-02-26
+	- [x] Add an API key to the _Dashboard > Recent News_ section and set the value of `apiKey`, you can modify other properties `newsCategory` and `articlCount`, where `newsCategory` is the cateogry of news you want to list (e.g., "space", "technology", etc...) and `articleCount` refers to the number of articles to list (note: it's recommended to keep article count at 6 or less). You can get a free API key from [GNews](https://gnews.io/) ✅ 2025-02-26
+- [x] Setup NASA Image of the Day ✅ 2025-02-26
+	- [x] Add an API key to the _Dashboard > Space Image_ of the Day section and set the value of `apiKey`. You can get a free API key from [NASA APIs](https://api.nasa.gov/) ✅ 2025-02-26
 
 
 ## Structure

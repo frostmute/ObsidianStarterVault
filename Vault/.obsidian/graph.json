@@ -1,0 +1,79 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "Path:_data_  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "Path:Journal  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "Path:Projects  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "Path:Spaces  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "Path:Notes  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "Path:Resources  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "Path:\"Concept Board\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "Path:\"07 Unsorted\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 1.51385637913596,
+  "lineSizeMultiplier": 2.17818715985166,
+  "collapse-forces": false,
+  "centerStrength": 0.71540721475702,
+  "repelStrength": 11.6890622742378,
+  "linkStrength": 0.612194769541974,
+  "linkDistance": 306,
+  "scale": 1.521931860989445,
+  "close": true
+}
