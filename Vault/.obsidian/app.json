@@ -40,5 +40,8 @@
     "obsidian-tasks-plugin:edit-task",
     "obsidian-tasks-plugin:toggle-done",
     "editor:configure-toolbar"
-  ]
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "newLinkFormat": "relative"
 }

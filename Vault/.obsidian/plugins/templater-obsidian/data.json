@@ -31,7 +31,15 @@
       "template": "_data_/templates/general/Definition.md"
     }
   ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": true,
   "enabled_templates_hotkeys": [
     ""
   ],

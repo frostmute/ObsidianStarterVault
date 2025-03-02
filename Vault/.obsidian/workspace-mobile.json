@@ -16,21 +16,6 @@
               "state": {
                 "file": "_data_/pinned/Tasks.md",
                 "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Tasks"
-            }
-          },
-          {
-            "id": "9b4c08995dbd9673",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/Resources Dashboard.md",
-                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -39,21 +24,46 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Resources Dashboard"
+              "title": "Tasks"
             }
           },
           {
-            "id": "8264df8b7b4e9c91",
+            "id": "acde2a77604609a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Journal/Journal Dashboard.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": true,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Journal Dashboard"
+            }
+          },
+          {
+            "id": "200f040369f6402d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -68,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Untitled"
             }
           }
         ],
@@ -92,23 +102,6 @@
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
-        }
-      },
-      {
-        "id": "eba4ff996c74a202",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
-          },
-          "icon": "lucide-search",
-          "title": "Search"
         }
       },
       {
@@ -148,7 +141,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Resources/Resources Dashboard.md",
+            "file": "Inbox/Untitled.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -167,7 +160,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Journal/Entries/2025-02-25.md",
+            "file": "Inbox/Untitled.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -176,22 +169,17 @@
         }
       },
       {
-        "id": "29ad563d51f1420a",
+        "id": "66cc453511309ae1",
         "type": "leaf",
         "state": {
-          "type": "outline",
-          "state": {
-            "file": "Resources/Resources Dashboard.md",
-            "followCursor": false,
-            "showSearch": false,
-            "searchQuery": ""
-          },
-          "icon": "lucide-list",
-          "title": "Outline"
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,17 +191,33 @@
       "omnisearch:Omnisearch": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "periodic-notes:Open today": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8264df8b7b4e9c91",
+  "active": "200f040369f6402d",
   "lastOpenFiles": [
+    "Journal/Journal Dashboard.md",
+    "Inbox/Untitled.md",
+    "Journal/Entries/2025-02-26.md",
+    "_data_/pinned/Tasks.md",
+    "Resources/Resources Dashboard.md",
+    "Spaces/Books/Books Dashboard.md",
+    "Spaces/Books/Dune Messiah.md",
+    "Spaces/Books/Dune.md",
+    "Spaces/Spaces Dashboard.md",
+    "Projects/Projects.md",
+    "References/Bass on Top.md",
+    "Categories/Albums.md",
+    "Spaces/Contacts/unnamed contact.md",
+    "Dashboard.md",
+    "Notes/Notes Dashboard.md",
+    "_data_/templates/general/Note page.md",
+    "README.md",
     "Resources/Using 'Group By' in DataviewJS.md",
     "Resources/Adding a custom font to Obsidian Android iOS.md",
-    "Resources/Resources Dashboard.md",
     "Projects/Top Secret Project/Home.md",
-    "Projects/Projects.md",
     "Projects/Data annotation.tech/Home.md",
     "Projects/Data annotation.tech/Tasks.md",
     "Projects/Data annotation.tech/Meetings/All Meetings.md",
@@ -222,15 +226,6 @@
     "Projects/Data annotation.tech/Meetings/References.md",
     "Projects/Data annotation.tech/Notes",
     "Projects/Data annotation.tech/Meetings",
-    "Projects/Data annotation.tech",
-    "Projects/Data annotation.tech/Notes/Achilles FAQ.md",
-    "_data_/pinned/Tasks.md",
-    "Journal/Entries/2025-02-26.md",
-    "07 Unsorted/Obsidian Vault Template.md",
-    "Spaces/Books/Dune.md",
-    "Spaces/Contacts/Example Contact.md",
-    "Spaces/Spaces Dashboard.md",
-    "Dashboard.md",
-    "Journal/Entries/2025-02-25.md"
+    "Projects/Data annotation.tech"
   ]
 }

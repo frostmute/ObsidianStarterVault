@@ -1,6 +1,5 @@
 [
   "table-editor-obsidian",
-  "obsidian-excalidraw-plugin",
   "dataview",
   "omnisearch",
   "buttons",
@@ -11,5 +10,8 @@
   "obsidian-image-toolkit",
   "obsidian-linter",
   "customjs",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "calendar",
+  "obsidian-icon-folder",
+  "periodic-notes"
 ]
