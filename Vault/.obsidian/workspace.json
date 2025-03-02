@@ -6,7 +6,7 @@
       {
         "id": "fb4c2a192e7e5fac",
         "type": "tabs",
-        "dimension": 40.382452193475814,
+        "dimension": 42.784090909090914,
         "children": [
           {
             "id": "ae1f55a4ac75bcd2",
@@ -30,7 +30,7 @@
       {
         "id": "cb54c16cb724c6b6",
         "type": "tabs",
-        "dimension": 59.617547806524186,
+        "dimension": 57.215909090909086,
         "children": [
           {
             "id": "f5b97f7c034ea0d6",
@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
+                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Achilles FAQ"
+              "title": "AI Powered Bookmark Manager"
             }
           }
         ]
@@ -59,7 +59,6 @@
       {
         "id": "6a5a46f35bfd6e3b",
         "type": "tabs",
-        "dimension": 52.167832167832174,
         "children": [
           {
             "id": "0d898f7a13d78898",
@@ -67,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#webclip/unread",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,11 +126,19 @@
           }
         ],
         "currentTab": 3
-      },
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5026054382324
+  },
+  "right": {
+    "id": "a60f7122a537c574",
+    "type": "split",
+    "children": [
       {
-        "id": "d7b0e54682194486",
+        "id": "7e3ab805b43b8465",
         "type": "tabs",
-        "dimension": 22.237762237762237,
+        "dimension": 23.410202655485673,
         "children": [
           {
             "id": "37e27ebc27625004",
@@ -144,57 +151,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          }
-        ]
-      },
-      {
-        "id": "a2fd806b7b16768b",
-        "type": "tabs",
-        "dimension": 25.594405594405593,
-        "children": [
-          {
-            "id": "718016731992099a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_data_/pinned/Tasks.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Tasks"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 277.52083587646484
-  },
-  "right": {
-    "id": "a60f7122a537c574",
-    "type": "split",
-    "children": [
-      {
-        "id": "7e3ab805b43b8465",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "acd963a0bcfcf3b2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
+                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Achilles FAQ"
+              "title": "Outgoing links from AI Powered Bookmark Manager"
             }
           },
           {
@@ -221,6 +190,7 @@
       {
         "id": "6fbf52eed911977e",
         "type": "tabs",
+        "dimension": 40.74074074074074,
         "children": [
           {
             "id": "4bc211e046b34cb3",
@@ -228,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
+                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,16 +217,16 @@
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": false,
-                  "centerStrength": 0.832611344253418,
-                  "repelStrength": 6.25558413428997,
+                  "centerStrength": 1,
+                  "repelStrength": 8.76810613239475,
                   "linkStrength": 1,
-                  "linkDistance": 250,
+                  "linkDistance": 305,
                   "scale": 1,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Achilles FAQ"
+              "title": "Graph of AI Powered Bookmark Manager"
             }
           }
         ]
@@ -264,6 +234,7 @@
       {
         "id": "05b94618df81efb5",
         "type": "tabs",
+        "dimension": 35.84905660377358,
         "children": [
           {
             "id": "7a18d07f4dc88e6e",
@@ -299,42 +270,43 @@
   },
   "active": "f5b97f7c034ea0d6",
   "lastOpenFiles": [
-    "04 Projects/Data annotation.tech/Notes/All Notes.md",
+    "07 Unsorted/AI Powered Bookmark Manager.md",
+    "03 Notes/AI AI AI/2023-10-02 REDDIT A Starter Guide for Playing with Your Own Local AI!.md",
     "06 Spaces/06 Spaces.md",
-    "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
-    "04 Projects/04 Projects.md",
-    "00 Inbox/2025-03-01 - Fixing folder borders in Obsidian file tree.md",
-    "00 Inbox/00 Inbox.md",
-    "Dashboard.md",
-    "05 Resources/README.md",
-    "Projects/Data annotation.tech/Notes/Achilles FAQ.md",
-    "_data_/templates/0A_Index.md",
-    "06 Spaces/Obsidian Stuff & Things/Obsidian Development Dashboard.md",
-    "06 Spaces/Obsidian Stuff & Things/Obsidian Stuff & Things.md",
-    "06 Spaces/Trips/Trips Dashboard.md",
-    "06 Spaces/Formulas/All Formulas.md",
-    "06 Spaces/Obsidian Stuff & Things/Navigation with DataviewJS.md",
-    "05 Resources/05 Resources.md",
+    "03 Notes/OS & System/Linux/2014-06-12 WEB How to Compile Linux Programs Under Windows with Cygwin.md",
+    "03 Notes/OS & System/OS & System.md",
     "03 Notes/03 Notes.md",
-    "02 Learning/02 Learning.md",
-    "01 Journal/01 Journal.md",
-    "04 Projects/Data annotation.tech/Home.md",
-    "00 Concept Board/Concept Board.md",
-    "01 Journal/Entries/2023-07-21.md",
-    "01 Journal/Entries/2025-02-28.md",
-    "01 Journal/Entries/2025-02-26.md",
-    "01 Journal/Entries/2025-02-25.md",
-    "_data_/templates/general/Journal entry.md",
-    "Clippings",
-    "_data_/templates/0A_3_Project",
-    "_data_/templates/0A_2_Lists",
-    "_data_/templates/0A_1_Logs",
-    "_data_/templates/0A_99_Index",
-    "_data_/templates/0A_17_WordDictionary",
-    "_data_/templates/0A_16_Investment",
-    "_data_/templates/0A_15_Company",
-    "_data_/templates/0A_14_Trackers",
-    "_data_/templates/0A_13_Meeting",
+    "06 Spaces/Obsidian Stuff & Things/My Obsidian Customization Screenshots.md",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/{DB93984A-C54A-4FBB-911C-C4D69FDD93C4}.png",
+    "06 Spaces/Obsidian Stuff & Things/Obsidian Stuff & Things.md",
+    "Dashboard.md",
+    "06 Spaces/Podcasts/Podcasts Dashboard.md",
+    "06 Spaces/Podcasts/Shawn Ryan Show – Bryce Case Jr. AKA YTCracker - Anonymous Hacker  SRS 85.md",
+    "07 Unsorted/07 Unsorted.md",
+    "03 Notes/Political & Social/Trump PresidencY Failures False Claims and Unkept Promises.md",
+    "07 Unsorted/Ultimate Research Document.md",
+    "07 Unsorted/Trufflepiggy - Quick Search.md",
+    "07 Unsorted/Test Personal Note.md",
+    "07 Unsorted/sh4hinAndrol4b A Virtual Machine For Assessing Android applications, Reverse Engineering and Malware Analysis.md",
+    "07 Unsorted/Sci-Fi.md",
+    "07 Unsorted/raw.githubusercontent.com - everestpipkin - tools-list - refs - heads - main - README.md.md",
+    "07 Unsorted/raw.githubusercontent.com - EbookFoundation - free-programming-books - refs - heads - main - books - free-programming-books-langs.md.md",
+    "07 Unsorted/Raven - Images, Non-STEM - Create Fine-Grained Criteria and Rate Responses from Two Models (021225).md",
+    "07 Unsorted/Raven - Criteria FAQ.md",
+    "07 Unsorted/Raindrop.io — All in One Bookmark Manager.md",
+    "07 Unsorted/Qualification Maxis Create Agentic Task and Actions (single-turn) Successful submissions grant access to regular $30+hr work.md",
+    "07 Unsorted/prog - How to get a solid foundation in compsci mathematics.md",
+    "07 Unsorted/Penetration Testing Framework 0.59.md",
+    "03 Notes/Mobile",
+    "03 Notes/Hacking & Security",
+    "03 Notes/AI AI AI",
+    "03 Notes/Note Taking",
+    "03 Notes/Video Editing",
+    "03 Notes/Piracy",
+    "03 Notes/OS & System/Linux",
+    "03 Notes/OS & System",
+    "03 Notes/Obsidian",
+    "06 Spaces/Podcasts/Episodes",
     "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things 3.png",
     "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things.png",
     "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things 2.png",
@@ -343,7 +315,6 @@
     "07 Unsorted/foldermedia/Pasted image 20250226000214.png",
     "_data_/media/banners/banner-personal-01.jpg",
     "_data_/media/banners/cosmic-dawn-initiative.png",
-    "_data_/media/banners/cosmic-dawn-initiative.png",
-    "_data_/media/banners/banner-personal-02.jpg"
+    "_data_/media/banners/cosmic-dawn-initiative.png"
   ]
 }

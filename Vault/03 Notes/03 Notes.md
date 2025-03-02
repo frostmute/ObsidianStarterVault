@@ -70,11 +70,24 @@ for (let group of dv.pages('"Notes" and !#dashboard').groupBy(p => p.note)) {
 			]))}
 ```
 %% Begin Waypoint %%
+- **[[AI AI AI]]**
+- **[[Development]]**
+- **[[Hacking & Security]]**
+- **[[Inspiration]]**
+- **[[Mobile]]**
+- **[[Note Taking]]**
+- **[[Obsidian]]**
+- **[[OS & System]]**
+- **[[Philosophy]]**
+- **[[Piracy]]**
+- **[[Political & Social]]**
 - **Science**
 	- [[Enceladus Geysers Potential Causes]]
 	- [[Enceladus Ice Thickness]]
 	- [[Radiation Belt Locations]]
 	- [[Solar Cycle Duration]]
+- **[[Stories for Theia]]**
+- **[[Video Editing]]**
 
 %% End Waypoint %%
 

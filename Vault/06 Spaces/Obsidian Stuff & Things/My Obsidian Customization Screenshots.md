@@ -6,6 +6,6 @@ image:
 My Obsidian Customization Screenshots... Over Time
 
 ![[foldermedia/Obsidian Stuff & Things.png]]
-
 ![[foldermedia/Obsidian Stuff & Things 2.png]]
 ![[foldermedia/Obsidian Stuff & Things 3.png]]
+![[foldermedia/{DB93984A-C54A-4FBB-911C-C4D69FDD93C4}.png]]
