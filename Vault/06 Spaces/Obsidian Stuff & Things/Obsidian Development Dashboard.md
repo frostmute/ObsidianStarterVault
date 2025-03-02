@@ -6,6 +6,7 @@ description: Obsidian development, scripts, and testing of new ideas.
 document_type: dashboard
 tags:
   - dashboard
+  - obsidian
 cssclasses:
   - cards
 ---

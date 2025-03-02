@@ -7,7 +7,6 @@ project: Data annotation.tech
 tags:
   - dashboard
   - project
-  - data-annotation.tech
 cssclasses:
   - cards
 ---

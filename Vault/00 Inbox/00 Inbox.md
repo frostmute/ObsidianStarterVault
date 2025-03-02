@@ -17,3 +17,8 @@ await Navbar.createNavbar(app, dv);
 ```
 
 # Inbox
+
+%% Begin Waypoint %%
+- [[2025-03-01 - Fixing folder borders in Obsidian file tree]]
+
+%% End Waypoint %%

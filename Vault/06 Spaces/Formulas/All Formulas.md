@@ -4,7 +4,11 @@ date_created: 2023-07-08
 date_modified: 2023-07-18
 description: Collection of math formulas and equations.
 document_type: dashboard
-tags: dashboard formula
+tags:
+  - dashboard
+  - formula
+cssclasses:
+  - cards
 ---
 # All Formulas
 Collection of math formulas and equations.

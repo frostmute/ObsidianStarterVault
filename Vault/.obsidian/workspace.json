@@ -6,20 +6,45 @@
       {
         "id": "fb4c2a192e7e5fac",
         "type": "tabs",
+        "dimension": 40.382452193475814,
         "children": [
           {
             "id": "ae1f55a4ac75bcd2",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Notes/03 Notes.md",
+                "file": "06 Spaces/06 Spaces.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "06 Spaces"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cb54c16cb724c6b6",
+        "type": "tabs",
+        "dimension": 59.617547806524186,
+        "children": [
+          {
+            "id": "f5b97f7c034ea0d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "03 Notes"
+              "title": "Achilles FAQ"
             }
           }
         ]
@@ -164,12 +189,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 Notes/03 Notes.md",
+                "file": "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 03 Notes"
+              "title": "Outgoing links from Achilles FAQ"
             }
           },
           {
@@ -203,7 +228,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "03 Notes/03 Notes.md",
+                "file": "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -226,12 +251,12 @@
                   "repelStrength": 6.25558413428997,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.7561887202488196,
+                  "scale": 1,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 03 Notes"
+              "title": "Graph of Achilles FAQ"
             }
           }
         ]
@@ -256,7 +281,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 504.5
+    "width": 516.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,35 +297,35 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ae1f55a4ac75bcd2",
+  "active": "f5b97f7c034ea0d6",
   "lastOpenFiles": [
-    "Dashboard.md",
-    "03 Notes/03 Notes.md",
+    "04 Projects/Data annotation.tech/Notes/All Notes.md",
+    "06 Spaces/06 Spaces.md",
+    "04 Projects/Data annotation.tech/Notes/Achilles FAQ.md",
     "04 Projects/04 Projects.md",
+    "00 Inbox/2025-03-01 - Fixing folder borders in Obsidian file tree.md",
     "00 Inbox/00 Inbox.md",
-    "00 Concept Board/Concept Board.md",
+    "Dashboard.md",
+    "05 Resources/README.md",
+    "Projects/Data annotation.tech/Notes/Achilles FAQ.md",
+    "_data_/templates/0A_Index.md",
+    "06 Spaces/Obsidian Stuff & Things/Obsidian Development Dashboard.md",
+    "06 Spaces/Obsidian Stuff & Things/Obsidian Stuff & Things.md",
+    "06 Spaces/Trips/Trips Dashboard.md",
+    "06 Spaces/Formulas/All Formulas.md",
+    "06 Spaces/Obsidian Stuff & Things/Navigation with DataviewJS.md",
+    "05 Resources/05 Resources.md",
+    "03 Notes/03 Notes.md",
     "02 Learning/02 Learning.md",
+    "01 Journal/01 Journal.md",
+    "04 Projects/Data annotation.tech/Home.md",
+    "00 Concept Board/Concept Board.md",
     "01 Journal/Entries/2023-07-21.md",
     "01 Journal/Entries/2025-02-28.md",
     "01 Journal/Entries/2025-02-26.md",
     "01 Journal/Entries/2025-02-25.md",
     "_data_/templates/general/Journal entry.md",
-    "01 Journal/Journal.md",
-    "_data_/templates/resources/Resource.md",
-    "_data_/_data_.md",
-    "_data_/templates/general/Concept.md",
-    "_data_/pinned/Sidebar Navigation.md",
-    "06 Spaces/Books/Books Dashboard.md",
-    "06 Spaces/Books/Dune Messiah.md",
-    "05 Resources/05 Resources.md",
-    "05 Resources/Element Structure and Format.md",
-    "README.md",
-    "Clippings/2025-03-01T201808-0600 - Fixing folder borders in Obsidian file tree, 2024-12-08T060829.000Z.md",
     "Clippings",
-    "01 Journal/01 Journal.md",
-    "00 Concept Board/00 Concept Board.md",
-    "06 Spaces/Spaces.md",
-    "_data_/templates/general/Book.md",
     "_data_/templates/0A_3_Project",
     "_data_/templates/0A_2_Lists",
     "_data_/templates/0A_1_Logs",

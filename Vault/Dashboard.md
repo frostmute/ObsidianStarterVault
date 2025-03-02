@@ -15,18 +15,18 @@ cssclasses:
 >>[!blank-container]
 >>## 🏠  Navigation
 >>[[00 Concept Board/Concept Board|💡  Concept Board →]]
->>[[01 Journal/Journal|📘 Journal →]]
+>>[[01 Journal/01 Journal|📘 Journal →]]
 >>[[02 Learning/Learning|🎓  Learning →]]
 >>[[03 Notes/Notes|🗒️  Notes →]]
 >>[[04 Projects/Projects|📐  Projects →]]
 >>[[05 Resources/Resources|ℹ️  Resources →]]
->>[[06 Spaces/Spaces|📦  Spaces →]]
+>>[[06 Spaces/06 Spaces|📦  Spaces →]]
 >
 >>[!blank-container]
->>## 📐  Projects (`$=dv.pages('"Projects" and #project').length`)
+>>## 📐  Projects (`$=dv.pages('"04 Projects" and #project').length`)
 >>```dataviewjs
 >>let projectList = [];
->>let projects = dv.pages('"Projects" and #dashboard and !#projects');
+>>let projects = dv.pages('"04 Projects" and #dashboard and !#projects');
 >>projects = projects.filter(obj => obj.is_active === true);
 >>for(let i=0; i<projects.length; i++){
 >>	projectList.push(`[[${projects[i].file.path}|${projects[i].file.path.split('/')[projects[i].file.path.split('/').length-2]} →]]`)

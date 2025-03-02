@@ -6,6 +6,10 @@
     "emojiStyle": "native",
     "iconColor": "#d4d4d4",
     "recentlyUsedIcons": [
+      "RiSpaceShipFill",
+      "RiPencilRulerFill",
+      "RiBookletFill",
+      "LiFolderCode",
       "RiStickyNoteFill",
       "RiGraduationCapFill",
       "LiNotebookPen",
@@ -64,5 +68,18 @@
   "03 Notes": {
     "iconName": "RiStickyNoteFill",
     "iconColor": "#0f6bff"
-  }
+  },
+  "04 Projects": {
+    "iconName": "RiPencilRulerFill",
+    "iconColor": "#573399"
+  },
+  "05 Resources": {
+    "iconName": "RiBookletFill",
+    "iconColor": "#7a409b"
+  },
+  "06 Spaces": {
+    "iconName": "RiSpaceShipFill",
+    "iconColor": "#c8468b"
+  },
+  "Dashboard.md": "RiDashboardFill"
 }

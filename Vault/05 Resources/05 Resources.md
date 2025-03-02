@@ -104,7 +104,10 @@ if(filteredPages.values.length > 0){
 ```
 
 %% Begin Waypoint %%
+- [[Adding a custom font to Obsidian Android iOS]]
 - [[Element Structure and Format]]
+- [[README]]
 - [[Test]]
+- [[Using 'Group By' in DataviewJS]]
 
 %% End Waypoint %%

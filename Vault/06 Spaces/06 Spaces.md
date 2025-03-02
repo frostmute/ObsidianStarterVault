@@ -6,7 +6,12 @@ description: Collection of other spaces
 document_type: dashboard
 include_in_navbar: true
 navbar_name: Spaces
-tags: dashboard spaces
+tags:
+  - dashboard
+  - spaces
+cssclasses:
+  - dashboard
+  - cards
 ---
 
 ```dataviewjs
@@ -121,6 +126,8 @@ for(let group of dv.pages('"06 Spaces/Contacts"').groupBy(p => p.contact)) {
 			k['email'],
 			]))}
 ```
+
+## Spaces by Space
 
 ```dataviewjs
 for (let group of dv.pages('"06 Spaces" and !#dashboard').groupBy(p => p.file.folder)) {
