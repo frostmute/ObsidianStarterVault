@@ -18,7 +18,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: formula
 tags: formula 
 ---
-[[All Formulas|All Formulas]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../06 Spaces/Formulas/All Formulas|All Formulas]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 # <% `${title}` %>
 
 > [!summary] Description
@@ -44,4 +44,4 @@ $my\space var$ = My variable.
 
 
 ---
-[[All Formulas|All Formulas]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../06 Spaces/Formulas/All Formulas|All Formulas]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**

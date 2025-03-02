@@ -1,0 +1,5 @@
+[data-mode="source"] .is-unresolved, .is-unresolved {
+  color:#ffffff !important;
+  font-weight:bold !important;
+  background-color: #A61717;
+}

@@ -14,9 +14,9 @@
   },
   "showFrontmatter": false,
   "showInlineTitle": false,
-  "propertiesInDocument": "hidden",
+  "propertiesInDocument": "source",
   "showLineNumber": true,
-  "autoConvertHtml": true,
+  "autoConvertHtml": false,
   "trashOption": "local",
   "showUnsupportedFiles": true,
   "uriCallbacks": true,
@@ -41,7 +41,7 @@
     "obsidian-tasks-plugin:toggle-done",
     "editor:configure-toolbar"
   ],
-  "newFileLocation": "folder",
-  "newFileFolderPath": "Inbox",
-  "newLinkFormat": "relative"
+  "focusNewTab": false,
+  "newLinkFormat": "relative",
+  "strictLineBreaks": false
 }

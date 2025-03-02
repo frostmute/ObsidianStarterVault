@@ -1,7 +1,7 @@
 ---
 cssclass: pinned-pages
 ---
-### [[Projects/Projects|Projects]]
+### [[../../04 Projects/Projects|Projects]]
 ```dataviewjs
 const myList = [];
 let projects = dv.pages('"Projects" and #dashboard and !#projects').sort(k => k.file.frontmatter['project'], 'asc');

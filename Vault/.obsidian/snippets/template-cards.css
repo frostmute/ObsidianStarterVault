@@ -1,0 +1,93 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Template                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Cards                                                                                   ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Cards                    ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+/* Background */
+.cards .table-view-tbody tr {
+  background: var(--bg1) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 0px !important;
+}
+
+/* Hover */
+body:not(.row-hover) .dataview.task-list-basic-item:hover,
+body:not(.row-hover) .dataview.task-list-item:hover,
+body:not(.row-hover) .table-view-table>tbody>tr:hover {
+  background: var(--bg2) !important;
+}
+
+/* Cards */
+.cards .table-view-tbody td {
+  width: unset !important;
+  max-height: 240px;
+  border: none !important;
+  border-radius: 12px;
+}
+
+/* Title */
+.cards .table-view-tbody td:nth-child(1) {
+  order: -1;
+}
+
+
+
+
+/* Image */
+.cards .table-view-tbody img {
+  object-fit: cover !important;
+  height: 100%;
+  width: 100%;
+  padding: 0px !important;
+}
+
+/* Cover */
+.cards .table-view-tbody td:nth-child(2) {
+  margin: 0px !important;
+  order: -2;
+  height: 20% !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Header */
+.cards .table-view-tbody td:nth-child(3) {
+  font-size: 16px !important;
+  font-weight: 600;
+
+}
+
+
+
+
+/* Remove File */
+/*
+.cards .table-view-tbody td:nth-child(1) {
+  display: none !important;
+}
+*/
+
+/* Remove Link Icon */
+.cards .external-link {
+  background: transparent;
+}
+
+

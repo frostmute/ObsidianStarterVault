@@ -20,7 +20,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: trip
 tags: travel trip
 <% "---" %>
-[[Trips Dashboard|Trips]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../06 Spaces/Trips/Trips Dashboard|Trips]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 # <% `${title}` %>
 **Overview**
 Destination:: <% `${destination}` %>
@@ -45,4 +45,4 @@ Completed:: false
 
 
 ---
-[[Trips Dashboard|Trips]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../06 Spaces/Trips/Trips Dashboard|Trips]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**

@@ -26,7 +26,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: resource
 tags: <% `${tagsCleaned}` %>
 <% "---" %>
-[[Resources/Resources Dashboard|Resources]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../05 Resources/05 Resources|Resources]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 # <% `${title}` %>
 **Overview**
 Description:: <% `${description}` %>
@@ -36,4 +36,4 @@ Description:: <% `${description}` %>
 
 
 ---
-[[Resources/Resources Dashboard|Resources]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[05 Resources/05 Resources|Resources]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**

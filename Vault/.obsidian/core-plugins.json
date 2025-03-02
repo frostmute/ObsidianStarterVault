@@ -26,6 +26,6 @@
   "file-recovery": true,
   "publish": false,
   "sync": false,
-  "properties": true,
+  "properties": false,
   "webviewer": true
 }

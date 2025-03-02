@@ -2,30 +2,76 @@
   "settings": {
     "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
-    "fontSize": 16,
+    "fontSize": 30,
     "emojiStyle": "native",
-    "iconColor": null,
-    "recentlyUsedIcons": [],
-    "recentlyUsedIconsSize": 5,
+    "iconColor": "#d4d4d4",
+    "recentlyUsedIcons": [
+      "RiSpaceShipFill",
+      "RiPencilRulerFill",
+      "RiBookletFill",
+      "LiFolderCode",
+      "RiStickyNoteFill",
+      "RiGraduationCapFill",
+      "LiNotebookPen",
+      "🗒",
+      "RiInboxArchiveFill",
+      "RiDashboardFill",
+      "RiStackFill",
+      "FarFloppyDisk"
+    ],
+    "recentlyUsedIconsSize": 25,
     "rules": [],
     "extraMargin": {
-      "top": 0,
+      "top": 2,
       "right": 4,
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
-    "iconInTitlePosition": "above",
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "inline",
     "iconInFrontmatterEnabled": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconsInLinksEnabled": true,
+    "iconsInLinksEnabled": false,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "_data_": {
+    "iconName": "FarFloppyDisk",
+    "iconColor": "#d4d4d4"
+  },
+  "07 Unsorted": {
+    "iconName": "RiStackFill",
+    "iconColor": "#a80049"
+  },
+  "01 Journal": {
+    "iconName": "LiNotebookPen",
+    "iconColor": "#75ddff"
+  },
+  "02 Learning": {
+    "iconName": "RiGraduationCapFill",
+    "iconColor": "#1aa7ff"
+  },
+  "03 Notes": {
+    "iconName": "RiStickyNoteFill",
+    "iconColor": "#0f6bff"
+  },
+  "04 Projects": {
+    "iconName": "RiPencilRulerFill",
+    "iconColor": "#573399"
+  },
+  "05 Resources": {
+    "iconName": "RiBookletFill",
+    "iconColor": "#7a409b"
+  },
+  "06 Spaces": {
+    "iconName": "RiSpaceShipFill",
+    "iconColor": "#c8468b"
+  },
+  "Dashboard.md": "RiDashboardFill"
 }

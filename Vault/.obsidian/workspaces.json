@@ -1,4 +1,305 @@
 {
-  "workspaces": {},
-  "active": ""
+  "workspaces": {
+    "Left Side Screen": {
+      "main": {
+        "id": "80b8f9416df1413b",
+        "type": "split",
+        "children": [
+          {
+            "id": "49541d82da302808",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4052769ea28302e2",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dashboard.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Dashboard"
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "1e14175cd534ace2",
+        "type": "split",
+        "children": [
+          {
+            "id": "6a5a46f35bfd6e3b",
+            "type": "tabs",
+            "dimension": 47.89248625534515,
+            "children": [
+              {
+                "id": "b086af801e8a41b7",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "0d898f7a13d78898",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "fdd19e4ea68307e0",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "22f37e1f9d6c2be9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_data_/pinned/Sidebar Navigation.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": true,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Sidebar Navigation"
+                }
+              }
+            ]
+          },
+          {
+            "id": "00ac898cd2873c52",
+            "type": "tabs",
+            "dimension": 28.71105681124007,
+            "children": [
+              {
+                "id": "37e27ebc27625004",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "718016731992099a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_data_/pinned/Tasks.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Tasks"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "11e3bb258f66a8a0",
+            "type": "tabs",
+            "dimension": 23.396456933414782,
+            "children": [
+              {
+                "id": "3c0e7b1e7760a8e9",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Dashboard.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": false,
+                      "centerStrength": 0.504677754677755,
+                      "repelStrength": 8.51351351351351,
+                      "linkStrength": 0.234407484407484,
+                      "linkDistance": 70,
+                      "scale": 0.7132754626224427,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Dashboard"
+                }
+              },
+              {
+                "id": "a51f21dbb66492da",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 291.5
+      },
+      "right": {
+        "id": "a60f7122a537c574",
+        "type": "split",
+        "children": [
+          {
+            "id": "7e3ab805b43b8465",
+            "type": "tabs",
+            "dimension": 73.57142857142858,
+            "children": [
+              {
+                "id": "acd963a0bcfcf3b2",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Dashboard.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Dashboard"
+                }
+              },
+              {
+                "id": "3795fe9dac32b278",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "07 Unsorted/Obsidian Vault Template.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Obsidian Vault Template"
+                }
+              }
+            ]
+          },
+          {
+            "id": "7b80c465474a1eee",
+            "type": "tabs",
+            "dimension": 26.42857142857143,
+            "children": [
+              {
+                "id": "d4cbc286e86d0bbd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Dashboard.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Dashboard"
+                }
+              },
+              {
+                "id": "1cde871858f70aef",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 414.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "zk-prefixer:Create new unique note": false,
+          "canvas:Create new canvas": false,
+          "graph:Open graph view": false,
+          "daily-notes:Open today's daily note": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "templater-obsidian:Templater": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "3c0e7b1e7760a8e9",
+      "mtime": "2025-02-26T17:49:35-06:00"
+    }
+  },
+  "active": "Left Side Screen"
 }

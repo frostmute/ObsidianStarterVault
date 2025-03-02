@@ -1,0 +1,26 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts Folder Hide Numbers                                                             ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-path="1 Notes"] .tree-item-inner::first-letter,
+[data-path="2 Bookmarks"] .tree-item-inner::first-letter,
+[data-path="3 Tasks"] .tree-item-inner::first-letter,
+[data-path="4 Personal"] .tree-item-inner::first-letter,
+[data-path="5 Study"] .tree-item-inner::first-letter,
+[data-path="6 Work"] .tree-item-inner::first-letter,
+[data-path="7 Knowledge"] .tree-item-inner::first-letter,
+[data-path="8 Resources"] .tree-item-inner::first-letter,
+[data-path="9 Templates"] .tree-item-inner::first-letter {
+    color: transparent;
+    font-size: 0px;
+}
+

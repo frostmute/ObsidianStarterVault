@@ -1,0 +1,118 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Template                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ Layout                                                                                  ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Layout                   ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="layout-4"] {
+  --layout-columns-4: calc(100% / 4 - 8px);
+}
+
+[data-callout="layout-3"] {
+  --layout-columns-3: calc(100% / 3 - 8px);
+}
+
+[data-callout="layout-2"] {
+  --layout-columns-2: calc(100% / 2 - 8px);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Layout                   ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+[data-callout="layout-4"] .callout-content,
+[data-callout="layout-3"] .callout-content,
+[data-callout="layout-2"] .callout-content {
+  display: flex;
+  border-radius: 8px;
+  row-gap: 8px;
+  column-gap: 24px;
+  min-width: 100% !important;
+}
+
+/* Spacing */
+[data-callout="layout-4"] p,
+[data-callout="layout-3"] p,
+[data-callout="layout-2"] p {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  row-gap: 8px;
+  column-gap: 4px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Colors                   ║ Remove                                                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Remove Title */
+[data-callout="layout-4"] .callout-title,
+[data-callout="layout-3"] .callout-title,
+[data-callout="layout-2"] .callout-title {
+  display: none;
+}
+
+/* Remove Background */
+[data-callout="layout-4"],
+[data-callout="layout-3"],
+[data-callout="layout-2"]{
+  background: transparent;
+  box-shadow: none !important;
+  padding: 0px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Layout                   ║ Columns-4                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="layout-4"] p {
+  width: var(--layout-columns-4);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Layout                   ║ Columns-3                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="layout-3"] p {
+  width: var(--layout-columns-3);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Layout                   ║ Columns-2                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[data-callout="layout-2"] p {
+  width: var(--layout-columns-2);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Layout                   ║ Callcout (Tasks)                                                                        ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+[data-callout="layout-4"] .callout-content > .callout[data-callout="tasks"],
+[data-callout="layout-3"] .callout-content > .callout[data-callout="tasks"],
+[data-callout="layout-2"] .callout-content > .callout[data-callout="tasks"] {
+  width: 100%;
+}
+
+[data-callout="layout-4"] .callout-content > .callout[data-callout="tasks"] .contains-task-list,
+[data-callout="layout-3"] .callout-content > .callout[data-callout="tasks"] .contains-task-list,
+[data-callout="layout-2"] .callout-content > .callout[data-callout="tasks"] .contains-task-list {
+  width: 100%;
+}
+
+/* Title */
+[data-callout="layout-4"] .callout-content > .callout[data-callout="tasks"] .callout-title,
+[data-callout="layout-3"] .callout-content > .callout[data-callout="tasks"] .callout-title,
+[data-callout="layout-2"] .callout-content > .callout[data-callout="tasks"] .callout-title {
+  display: block;
+}

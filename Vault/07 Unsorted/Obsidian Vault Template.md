@@ -1,4 +1,3 @@
----
 title: Obsidian Vault Template
 source: https://stephango.com/vault
 author:
@@ -14,7 +13,6 @@ image:
 category: 
 type:
 ---
-> Steph Ango's Obsidian vault template and approach to note-taking, emphasizing a bottom-up, file-based system. The template uses minimal folders, categories as links, and templates with properties for organization. It includes details on theme, plugins, folder structure, categories, tags, templates, properties, a rating system, and publishing to the web.
 
 ---
 

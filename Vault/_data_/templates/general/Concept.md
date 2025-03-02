@@ -19,7 +19,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: concept
 tags: concept 
 ---
-[[Concept Board/Concept Board|Concept Board]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../00 Concept Board/Concept Board|Concept Board]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 # <% `${title}` %>
 **Overview**
 Concept type:: <% tp.file.cursor(1) %>
@@ -44,4 +44,4 @@ Description:: <% `${description}` %>
 
 
 ---
-[[Concept Board/Concept Board|Concept Board]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../00 Concept Board/Concept Board|Concept Board]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**

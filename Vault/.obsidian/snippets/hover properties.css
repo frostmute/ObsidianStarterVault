@@ -1,0 +1,19 @@
+@media screen and (min-width: 1024px)  {
+    .view-content {
+        .metadata-container {
+            max-height: 2.7rem;
+            opacity: 0.6;
+            overflow: hidden;
+            transition: max-height 250ms ease-in-out, opacity 250ms;
+            margin-bottom: 0;
+       }
+        .metadata-container:hover,
+        .metadata-container:focus-within {
+             max-height: 1000px;
+             opacity: 1;
+             transition: max-height 300ms ease-in-out,
+             opacity 300ms;
+             transition-delay: 0.5s;
+        }
+    }
+}

@@ -4,31 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "9a2c68d76e605e7a",
+        "id": "fb4c2a192e7e5fac",
         "type": "tabs",
+        "dimension": 42.784090909090914,
         "children": [
           {
-            "id": "22f37e1f9d6c2be9",
+            "id": "ae1f55a4ac75bcd2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 Spaces/06 Spaces.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "06 Spaces"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cb54c16cb724c6b6",
+        "type": "tabs",
+        "dimension": 57.215909090909086,
+        "children": [
+          {
+            "id": "f5b97f7c034ea0d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
                 "mode": "preview",
                 "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Projects"
+              "title": "AI Powered Bookmark Manager"
             }
           }
         ]
@@ -43,28 +59,14 @@
       {
         "id": "6a5a46f35bfd6e3b",
         "type": "tabs",
-        "dimension": 56.257668711656436,
         "children": [
-          {
-            "id": "b086af801e8a41b7",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "0d898f7a13d78898",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#webclip/unread",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,6 +78,30 @@
             }
           },
           {
+            "id": "22f37e1f9d6c2be9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_data_/pinned/Sidebar Navigation.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sidebar Navigation"
+            }
+          },
+          {
             "id": "fdd19e4ea68307e0",
             "type": "leaf",
             "state": {
@@ -84,38 +110,95 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          }
-        ]
-      },
-      {
-        "id": "0e964d733e1ce9e0",
-        "type": "tabs",
-        "dimension": 19.938650306748464,
-        "children": [
+          },
           {
-            "id": "a51f21dbb66492da",
+            "id": "bcf0a3ff148a02e2",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5026054382324
+  },
+  "right": {
+    "id": "a60f7122a537c574",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e3ab805b43b8465",
+        "type": "tabs",
+        "dimension": 23.410202655485673,
+        "children": [
+          {
+            "id": "37e27ebc27625004",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "calendar",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "pinned": true,
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "acd963a0bcfcf3b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AI Powered Bookmark Manager"
+            }
+          },
+          {
+            "id": "3795fe9dac32b278",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 Notes/03 Notes.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03 Notes"
             }
           }
         ]
       },
       {
-        "id": "11e3bb258f66a8a0",
+        "id": "6fbf52eed911977e",
         "type": "tabs",
-        "dimension": 23.803680981595093,
+        "dimension": 40.74074074074074,
         "children": [
           {
-            "id": "3c0e7b1e7760a8e9",
+            "id": "4bc211e046b34cb3",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -134,182 +217,104 @@
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": false,
-                  "centerStrength": 0.781185031185031,
-                  "repelStrength": 6.97505197505197,
-                  "linkStrength": 0.681392931392931,
-                  "linkDistance": 250,
-                  "scale": 1.0000000000000002,
+                  "centerStrength": 1,
+                  "repelStrength": 8.76810613239475,
+                  "linkStrength": 1,
+                  "linkDistance": 305,
+                  "scale": 1,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Projects"
+              "title": "Graph of AI Powered Bookmark Manager"
             }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 359.5
-  },
-  "right": {
-    "id": "a60f7122a537c574",
-    "type": "split",
-    "children": [
-      {
-        "id": "7e3ab805b43b8465",
-        "type": "tabs",
-        "dimension": 50.897129186602875,
-        "children": [
-          {
-            "id": "3795fe9dac32b278",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Projects/Projects.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Projects"
-            }
-          },
-          {
-            "id": "acd963a0bcfcf3b2",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Projects/Projects.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Projects"
-            }
-          },
-          {
-            "id": "5f31c06ae3f058aa",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Projects/Projects.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Projects"
-            }
-          },
-          {
-            "id": "1cde871858f70aef",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          }
-        ],
-        "currentTab": 3
       },
       {
-        "id": "7b80c465474a1eee",
+        "id": "05b94618df81efb5",
         "type": "tabs",
-        "dimension": 49.10287081339713,
+        "dimension": 35.84905660377358,
         "children": [
           {
-            "id": "d4cbc286e86d0bbd",
+            "id": "7a18d07f4dc88e6e",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Projects/Projects.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Projects"
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 516.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "zk-prefixer:Create new unique note": false,
       "canvas:Create new canvas": false,
       "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "22f37e1f9d6c2be9",
+  "active": "f5b97f7c034ea0d6",
   "lastOpenFiles": [
+    "07 Unsorted/AI Powered Bookmark Manager.md",
+    "03 Notes/AI AI AI/2023-10-02 REDDIT A Starter Guide for Playing with Your Own Local AI!.md",
+    "06 Spaces/06 Spaces.md",
+    "03 Notes/OS & System/Linux/2014-06-12 WEB How to Compile Linux Programs Under Windows with Cygwin.md",
+    "03 Notes/OS & System/OS & System.md",
+    "03 Notes/03 Notes.md",
+    "06 Spaces/Obsidian Stuff & Things/My Obsidian Customization Screenshots.md",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/{DB93984A-C54A-4FBB-911C-C4D69FDD93C4}.png",
+    "06 Spaces/Obsidian Stuff & Things/Obsidian Stuff & Things.md",
     "Dashboard.md",
-    "Resources/Resources Dashboard.md",
-    "Journal/Entries/2025-02-26.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Resources/Test.md",
-    "Concept Board/Concept Board.md",
-    "Projects/Projects.md",
-    "Personal/Personal Dashboard.md",
-    "Notes/Notes Dashboard.md",
-    "Learning/Learning Dashboard.md",
-    "Notes/Science",
-    "Journal/Journal Dashboard.md",
-    "Journal/Entries/2025-02-25.md",
-    "Journal/Entries/2023-07-21.md",
-    "07 Unsorted/Obsidian Vault Template.md",
-    "Inbox/Inbox.md",
-    "07 Unsorted/Publish your Obsidian Notes - MKDocs Template.md",
-    "07 Unsorted/Obsidian - Link all files in a folder.md",
+    "06 Spaces/Podcasts/Podcasts Dashboard.md",
+    "06 Spaces/Podcasts/Shawn Ryan Show – Bryce Case Jr. AKA YTCracker - Anonymous Hacker  SRS 85.md",
+    "07 Unsorted/07 Unsorted.md",
+    "03 Notes/Political & Social/Trump PresidencY Failures False Claims and Unkept Promises.md",
+    "07 Unsorted/Ultimate Research Document.md",
+    "07 Unsorted/Trufflepiggy - Quick Search.md",
+    "07 Unsorted/Test Personal Note.md",
+    "07 Unsorted/sh4hinAndrol4b A Virtual Machine For Assessing Android applications, Reverse Engineering and Malware Analysis.md",
+    "07 Unsorted/Sci-Fi.md",
+    "07 Unsorted/raw.githubusercontent.com - everestpipkin - tools-list - refs - heads - main - README.md.md",
+    "07 Unsorted/raw.githubusercontent.com - EbookFoundation - free-programming-books - refs - heads - main - books - free-programming-books-langs.md.md",
+    "07 Unsorted/Raven - Images, Non-STEM - Create Fine-Grained Criteria and Rate Responses from Two Models (021225).md",
+    "07 Unsorted/Raven - Criteria FAQ.md",
+    "07 Unsorted/Raindrop.io — All in One Bookmark Manager.md",
+    "07 Unsorted/Qualification Maxis Create Agentic Task and Actions (single-turn) Successful submissions grant access to regular $30+hr work.md",
+    "07 Unsorted/prog - How to get a solid foundation in compsci mathematics.md",
+    "07 Unsorted/Penetration Testing Framework 0.59.md",
+    "03 Notes/Mobile",
+    "03 Notes/Hacking & Security",
+    "03 Notes/AI AI AI",
+    "03 Notes/Note Taking",
+    "03 Notes/Video Editing",
+    "03 Notes/Piracy",
+    "03 Notes/OS & System/Linux",
+    "03 Notes/OS & System",
+    "03 Notes/Obsidian",
+    "06 Spaces/Podcasts/Episodes",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things 3.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things 2.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/{B0226AAF-D4D8-4747-8E8F-27237F7121E0}.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/My Obsidian Customization Screenshots.png",
     "07 Unsorted/foldermedia/Pasted image 20250226000214.png",
-    "07 Unsorted/foldermedia",
-    "Resources/Element Structure and Format.md",
-    "_data_/templates/resources/Resource.md",
-    "07 Unsorted",
-    "Resources/Element Structure and Formats.md",
-    "README.md",
-    "Projects/Top Secret Project/Meetings/2023-10-29 - Example Meeting Note.md",
-    "Projects/Top Secret Project/Meetings/All Meetings.md",
-    "Projects/Top Secret Project/Tasks.md",
-    "Projects/Top Secret Project/Home.md",
-    "Spaces/Obsidian Development",
-    "Spaces/Untitled",
-    "Inbox",
-    "_data_/scripts/javascript/vaultplugins.js",
-    "_data_/scripts/vaultplugins.js",
-    "_data_/scripts/dataview/toc.js",
-    "_data_/scripts/dataview/recent-news.js",
     "_data_/media/banners/banner-personal-01.jpg",
     "_data_/media/banners/cosmic-dawn-initiative.png",
-    "_data_/media/banners/cosmic-dawn-initiative.png",
-    "_data_/media/banners/banner-personal-02.jpg",
-    "_data_/media/banners/banner-proprietary-01.jpg",
-    "_data_/media/banners/banner-proprietary-02.jpg",
-    "_data_/media/dashboard-preview.png",
-    "_data_/media/255020736-42c6f878-46e3-4602-9224-5d92918bef07.png",
-    "_data_/media/profile-picture-placeholder.jpg"
+    "_data_/media/banners/cosmic-dawn-initiative.png"
   ]
 }

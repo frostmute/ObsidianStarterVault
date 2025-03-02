@@ -1,0 +1,207 @@
+/* ---- the code below is modified version of Bluemoondragon07's banner image in this forum post: https://forum.obsidian.md/t/banner-images-icons-experimental-more-image-options-css-snippet/53738 ---- */
+/* ----- common variants ----- */
+body {
+    --banner-height: 300px;
+    --icon-height: 100px;
+}
+
+/* ----- icon setting ----- */
+.internal-embed.image-embed[alt*="icon"] {
+    display: contents;
+}
+
+.obsidian-icon img[alt*="icon"] {
+    position: absolute;
+    width: 80px !important;
+    object-fit: cover;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+/* ---- icon position setting --- */
+.obsidian-icon img[alt*="icon"] {
+    top: 20px;
+}
+
+.obsidian-icon.markdown-preview-view:has(img[alt*="icon"]) .mod-header {
+    position: relative;
+    padding-top: calc(var(--icon-height) - 20px);
+    z-index: 1;
+}
+
+.obsidian-icon:has(img[alt*="icon"]) .cm-sizer {
+    position: static;
+    padding-top: calc(var(--icon-height) - 20px);
+    z-index: 1;
+}
+
+
+/* ----- banner setting ----- */
+/* make the div (in LP) containing the image doesn't control the css box-sizing */
+.internal-embed.image-embed[alt*="banner"] {
+    display: contents;
+}
+
+.obsidian-banner img[alt*="banner"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--banner-height);
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;
+    user-select: none;
+    border-radius: 0px;
+}
+
+/* ---- banner position setting --- */
+.obsidian-banner.markdown-preview-view:has(img[alt*="banner"]) .mod-header {
+    position: relative;
+    padding-top: calc(var(--banner-height) - 40px);
+    z-index: 1;
+}
+
+.obsidian-banner:has(img[alt*="banner"]) .cm-sizer {
+    position: static;
+    padding-top: calc(var(--banner-height) - 40px);
+    z-index: 1;
+}
+
+.obsidian-icon:has(img[alt*="banner"]) img[alt*="icon"] {
+    top: calc(var(--banner-height) - 100px);
+}
+
+/* ---- banner gradient --- */
+.obsidian-banner img[alt*="banner"] {
+    -webkit-mask-image: -webkit-gradient(linear, 50% 60%, 50% 100%, from(rgba(0, 0, 0, 0.858)), to(rgba(0, 0, 0, 0.151)));
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.135));
+}
+
+/* ---- banner position setting optional --- */
+.obsidian-banner img[alt*="banner"][alt*="0%"] {
+    object-position: 50% 0%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="5%"] {
+    object-position: 50% 5%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="10%"] {
+    object-position: 50% 10%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="15%"] {
+    object-position: 50% 15%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="20%"] {
+    object-position: 50% 20%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="25%"] {
+    object-position: 50% 25%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="30%"] {
+    object-position: 50% 30%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="35%"] {
+    object-position: 50% 35%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="40%"] {
+    object-position: 50% 40%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="45%"] {
+    object-position: 50% 45%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="50%"] {
+    object-position: 50% 50%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="55%"] {
+    object-position: 50% 55%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="60%"] {
+    object-position: 50% 60%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="65%"] {
+    object-position: 50% 65%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="70%"] {
+    object-position: 50% 70%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="75%"] {
+    object-position: 50% 75%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="80%"] {
+    object-position: 50% 80%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="85%"] {
+    object-position: 50% 85%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="90%"] {
+    object-position: 50% 90%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="95%"] {
+    object-position: 50% 95%;
+}
+
+.obsidian-banner img[alt*="banner"][alt*="100%"] {
+    object-position: 50% 100%;
+}
+
+/* ---- hide preview space line --- */
+.obsidian-banner.markdown-preview-view span[alt*="banner"]+br {
+  display: none;
+}
+
+.obsidian-banner.markdown-preview-view span[alt*="icon"]+br {
+  display: none;
+}
+
+/* --- profile image --- */
+img[alt*="circle"],
+img[alt*="profile"],
+img[alt*="round"] {
+    display: block;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 60%;
+    position: 50% 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* --- float images --- */
+.markdown-rendered img[alt*="right"] {
+    display: flexbox;
+    float: right;
+    clear: right;
+    max-width: 40%;
+    margin-left: 15px;
+}
+
+.markdown-rendered img[alt*="left"] {
+    display: flexbox;
+    float: left;
+    clear: left;
+    max-width: 40%;
+    margin-right: 40px;
+}

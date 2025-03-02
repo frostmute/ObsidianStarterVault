@@ -19,7 +19,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: assignment
 tags: course assignment task
 <% "---" %>
-[[Learning/Learning Dashboard|Learning Dashboard]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../02 Learning/02 Learning|Learning]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 # <% `${title}` %>
 **Overview**
 Completed:: false
@@ -32,5 +32,5 @@ Description:: <% tp.file.cursor(1) %>
 
 
 ---
-[[Learning/Learning Dashboard|Learning Dashboard]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../02 Learning/02 Learning|Learning]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 

@@ -35,7 +35,7 @@ Would you like to take _some_ of your notes in [Obsidian](https://obsidian.md
 4. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
 5. Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
 
-![[Pasted image 20250226000214.png]]
+![[foldermedia/Pasted image 20250226000214.png]]
 
 **Not working for you?** Open an [issue](https://github.com/jobindjohn/obsidian-publish-mkdocs/issues/new/choose) and let me know what went wrong.
 

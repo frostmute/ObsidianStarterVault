@@ -29,7 +29,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: course
 tags: sub-dashboard course
 <% "---" %>
-[[Learning/Learning Dashboard|Learning Dashboard]] / **<% `[[${filePath}|${fileObject.parent.name}]]` %>**
+[[../../../02 Learning/02 Learning|Learning]] / **<% `[[${filePath}|${fileObject.parent.name}]]` %>**
 # <% `${fileObject.parent.name}` %>
 **Overview**
 Title:: <% `${fileObject.parent.name}` %>
@@ -111,4 +111,4 @@ for (let group of dv.pages('"<% `${fileProjectRoot}` %>" and #course-note').grou
 
 
 ---
-[[Learning/Learning Dashboard|Learning Dashboard]] / **<% `[[${filePath}|${fileObject.parent.name}]]` %>**
+[[../../../02 Learning/02 Learning|Learning]] / **<% `[[${filePath}|${fileObject.parent.name}]]` %>**

@@ -26,7 +26,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: note
 tags: <% `${tagsCleaned}` %>
 <% "---" %>
-[[Notes Dashboard|Notes Dashboard]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../03 Notes/03 Notes|Notes]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 # <% `${title}` %>
 **Overview**
 Description:: <% `${description}` %>
@@ -36,4 +36,4 @@ Description:: <% `${description}` %>
 
 
 ---
-[[Notes Dashboard|Notes Dashboard]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../03 Notes/03 Notes|Notes]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
