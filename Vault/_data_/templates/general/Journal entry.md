@@ -8,7 +8,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: journal
 tags: journal journal-entry
 <% "---" %>
-[[Journal/Journal Dashboard|Journal]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[01 Journal/Journal|Journal]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 <% `# ${fileObject.basename}` %>
 
 > [!important] Significant Event
@@ -18,4 +18,4 @@ tags: journal journal-entry
 <% tp.file.cursor(1) %>
 
 ---
-[[Journal/Journal Dashboard|Journal]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[01 Journal/Journal|Journal]] / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**

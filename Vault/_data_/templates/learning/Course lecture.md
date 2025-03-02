@@ -21,7 +21,7 @@ date_modified: <% `${tp.date.now("YYYY-MM-DD")}` %>
 document_type: lecture
 tags: course lecture
 <% "---" %>
-[[Learning/Learning Dashboard|Learning Dashboard]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../02 Learning/02 Learning|Learning]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 # <% `${title}` %>
 **Overview**
 Description:: <% `${description}` %>
@@ -35,5 +35,5 @@ Link::
 
 
 ---
-[[Learning/Learning Dashboard|Learning Dashboard]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
+[[../../../02 Learning/02 Learning|Learning]] / <% `[[${home}/Home|${pathArray[1]}]]` %> / **<% `[[${filePath.slice(0,-3)}|${fileObject.basename}]]` %>**
 

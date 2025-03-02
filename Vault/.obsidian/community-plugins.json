@@ -1,15 +1,23 @@
 [
   "table-editor-obsidian",
-  "obsidian-excalidraw-plugin",
   "dataview",
   "omnisearch",
   "buttons",
   "obsidian-tasks-plugin",
-  "obsidian-style-settings",
   "obsidian-book-search-plugin",
   "templater-obsidian",
   "obsidian-image-toolkit",
   "obsidian-linter",
   "customjs",
-  "obsidian-minimal-settings"
+  "calendar",
+  "obsidian-icon-folder",
+  "periodic-notes",
+  "highlightr-plugin",
+  "oz-image-plugin",
+  "cmdr",
+  "obsidian-auto-link-title",
+  "metadata-menu",
+  "waypoint",
+  "folder-note-plugin",
+  "obsidian-style-settings"
 ]

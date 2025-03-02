@@ -1,0 +1,184 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts Folder Header                                                                   ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ Variables                                                                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+/* General */
+--folder-header-text-transform: uppercase; /* use: (uppercase, lowercase,capitalize) */
+--folder-header-border-radius: 4px;
+--folder-header-padding-width: 6px;
+--folder-header-padding-height: 1px;
+--folder-header-font-weight: 500;
+--folder-header-font-size: 11px;
+--folder-header-transition: 0.1s;
+
+/* Header 1 */
+--folder-header-1: "General";
+--folder-header-1-color: var(--text-muted);
+--folder-header-1-color-hover: white;
+--folder-header-1-background: #303445;
+--folder-header-1-background-hover: rgba(205, 9, 81, 0.400);
+
+/* Header 2 */
+--folder-header-2: "Private";
+--folder-header-2-color: var(--text-muted);
+--folder-header-2-color-hover: white;
+--folder-header-2-background: #303445;
+--folder-header-2-background-hover: rgba(9, 205, 133, 0.400);
+
+/* Header 3 */
+--folder-header-3: "Public";
+--folder-header-3-color: var(--text-muted);
+--folder-header-3-color-hover: white;
+--folder-header-3-background: #303445;
+--folder-header-3-background-hover: rgba(97, 136, 255, 0.400);
+
+/* Header 4 */
+--folder-header-4: "Assets";
+--folder-header-4-color: var(--text-muted);
+--folder-header-4-color-hover: white;
+--folder-header-4-background: #303445;
+--folder-header-4-background-hover: rgba(176, 97, 255, 0.400);
+
+/* Header 5 */
+--folder-header-5: "Other";
+--folder-header-5-color: var(--text-muted);
+--folder-header-5-color-hover: var(--text-muted);
+--folder-header-5-background: #303445;
+--folder-header-5-background-hover: #303445;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ Hide Vault Header                                                                       ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
+  font-size: 0px !important;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder.mod-root > .nav-folder-title .nav-folder-title-content::after,
+.nav-folder.mod-root > .nav-folder-children > .nav-folder::after,
+.nav-folder.mod-root > .nav-folder-title .nav-folder-title-content::before,
+.nav-folder.mod-root > .nav-folder-children > .nav-folder::before {
+  border-radius: var(--folder-header-border-radius);
+  padding: var(--folder-header-padding-height) var(--folder-header-padding-width) var(--folder-header-padding-height) var(--folder-header-padding-width);
+  left: var(--layout-margin);
+  font-size: var(--folder-header-font-size) !important;
+  font-weight: var(--folder-header-font-weight);
+  text-transform: var(--folder-header-text-transform);
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  font-size: var(--font-adaptive-smallest);
+  transition: background-color var(--folder-header-transition) ease;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ Header 1                                                                                ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/*
+.nav-folder.mod-root>.nav-folder-title .nav-folder-title-content::after {
+  content: var(--folder-header-1);
+  background: var(--folder-header-1-background);
+  color: var(--folder-header-1-color, var(--text-muted));
+  position: absolute;
+}
+
+.nav-files-container:hover > .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content::after {
+  background: var(--folder-header-1-background-hover);
+  color: var(--folder-header-1-color-hover);
+}
+*/
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(2)::before {
+  content: var(--folder-header-1);
+  background: var(--folder-header-1-background, var(--bg1));
+  color: var(--folder-header-1-color, var(--text-muted));
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 14px;
+  top: 0;
+  left: 0;
+}
+
+.nav-files-container:hover > .nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(2)::before {
+  background: var(--folder-header-1-background-hover);
+  color: var(--folder-header-1-color-hover);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ Header 2                                                                                ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(4)::after {
+  content: var(--folder-header-2);
+  background: var(--folder-header-2-background, var(--bg1));
+  color: var(--folder-header-2-color, var(--text-muted));
+  position: relative;
+}
+
+.nav-files-container:hover > .nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(4)::after {
+  background: var(--folder-header-2-background-hover);
+  color: var(--folder-header-2-color-hover);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ Header 3                                                                                ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(7)::after {
+  content: var(--folder-header-3);
+  background: var(--folder-header-3-background, var(--bg1));
+  color: var(--folder-header-3-color, var(--text-muted));
+  position: relative;
+}
+
+.nav-files-container:hover > .nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(7)::after {
+  background: var(--folder-header-3-background-hover);
+  color: var(--folder-header-3-color-hover);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ Header 4                                                                                ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(8)::after {
+  content: var(--folder-header-4);
+  background: var(--folder-header-4-background, var(--bg1));
+  color: var(--folder-header-5-color, var(--text-muted));
+  position: relative;
+}
+
+.nav-files-container:hover > .nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(8)::after {
+  background: var(--folder-header-4-background-hover);
+  color: var(--folder-header-4-color-hover);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Folder Headers           ║ Header 5                                                                                ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(10)::after {
+  content: var(--folder-header-5);
+  background: var(--folder-header-5-background, var(--bg1));
+  color: var(--folder-header-5-color, var(--text-muted));
+  position: relative;
+}
+
+.nav-files-container:hover > .nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(10)::after {
+  background: var(--folder-header-5-background-hover);
+  color: var(--folder-header-5-color-hover);
+}

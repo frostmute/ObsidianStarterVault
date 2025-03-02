@@ -2,22 +2,25 @@
 banner: "![[banner-dashboard.jpg]]"
 include_in_navbar: true
 navbar_name: Dashboard
-tags: dashboard
+tags:
+  - dashboard
+cssclasses:
+  - cards
+  - dashboard
 ---
 
-**[[Dashboard|Dashboard]]** | [[Concept Board/Concept Board|Concept Board]] | [[Journal/Journal Dashboard|Journal]] | [[Learning/Learning Dashboard|Learning]] | [[Notes/Notes Dashboard|Notes]] | [[Projects/Projects|Projects]] | [[Resources/Resources Dashboard|Resources]] | [[Spaces/Spaces Dashboard|Spaces]]
 # Dashboard
+
 >[!multi-column]
 >>[!blank-container]
 >>## 🏠  Navigation
->>[[Concept Board/Concept Board|💡  Concept Board →]]
->>[[Journal/Journal Dashboard|📘 Journal →]]
->>[[Learning/Learning Dashboard|🎓  Learning →]]
->>[[Notes Dashboard|🗒️  Notes →]]
->>[[Projects/Projects|📐  Projects →]]
->>[[Personal Dashboard|🔒  Personal →]]
->>[[Resources/Resources Dashboard|ℹ️  Resources →]]
->>[[Spaces/Spaces Dashboard|📦  Spaces →]]
+>>[[00 Concept Board/Concept Board|💡  Concept Board →]]
+>>[[01 Journal/Journal|📘 Journal →]]
+>>[[02 Learning/Learning|🎓  Learning →]]
+>>[[03 Notes/Notes|🗒️  Notes →]]
+>>[[04 Projects/Projects|📐  Projects →]]
+>>[[05 Resources/Resources|ℹ️  Resources →]]
+>>[[06 Spaces/Spaces|📦  Spaces →]]
 >
 >>[!blank-container]
 >>## 📐  Projects (`$=dv.pages('"Projects" and #project').length`)
@@ -33,7 +36,7 @@ tags: dashboard
 ---
 >[!multi-column]
 >>[!blank-container]
->>### 🚀 Upcoming Launches
+>>## 🚀 Upcoming Launches
 >>```dataviewjs
 >>function construct_elements(data) {
 >>for(let i=0; i<data.length; i++){
@@ -50,7 +53,7 @@ tags: dashboard
 >>```
 >
 >>[!blank-container]
->>### &emsp;🛰️Space Image of the Day
+>>## &emsp;🛰️Space Image of the Day
 >>```dataviewjs
 >>const {NASAImageOfTheDay} = customJS;
 >>let element = this.container.createEl('div', {cls: ["tailwind"]});
@@ -58,8 +61,7 @@ tags: dashboard
 >>await NASAImageOfTheDay.getImage(element, apiKey);
 >>```
 
----
-### ✏️  Recently Changed
+### Recently Changed
 ```dataviewjs
 function converteTime(time){
 	// Convert from ms to minutes
@@ -87,24 +89,27 @@ for (let group of dv.pages('!"_data_"').sort(k => k.file.mtime, 'desc').limit(10
 			]))}
 ```
 
-**Stats**
+### **Stats**
 Number of files: `$=dv.pages('!"_data_"').length`
 Number of notes: `$=dv.pages('"Notes" and !#dashboard').length`
 Number of concepts: `$=dv.pages('"Concept Board" and !#dashboard').length`
 
 ---
-
 ### 📰 Recent News
-```dataviewjs
-const {News} = customJS;
-let element = this.container.createEl('div', {cls: ["tailwind"]});
-let newsCategory = 'stocks';
-let articleCount = '6';
-let apiKey = 'e40a3e9b49a4248f96e15459daa4a434';
-await News.listNews(element, newsCategory, articleCount, apiKey);
-```
----
-```dataviewjs
-const {Navbar} = customJS;
-await Navbar.createNavbar(app, dv); 
-```
+>
+> ```dataviewjs
+> const {News} = customJS;
+> let element = this.container.createEl('div', {cls: ["tailwind"]});
+> let newsCategory = 'stocks';
+> let articleCount = '6';
+> let apiKey = 'e40a3e9b49a4248f96e15459daa4a434';
+> await News.listNews(element, newsCategory, articleCount, apiKey);
+>
+
+ ---
+ 
+ ```dataviewjs
+ const {Navbar} = customJS;
+ await Navbar.createNavbar(app, dv); 
+ ```
+ 

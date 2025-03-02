@@ -1,7 +1,10 @@
 ---
-cssclass: pinned-pages
+cssclasses:
+  - pinned-pages
 ---
-**Tasks**
+
+## Tasks
+
 ```dataviewjs
 let tasks = dv.pages('').file.tasks
 let completedTasks = dv.pages('').file.tasks.where(t => t.completed)
@@ -14,6 +17,7 @@ dv.el("div", `
 <small>${Math.round((completedTasks.length/tasks.length)*100, 0)}% completed (${incompletedTasks.length} tasks remaining)</small>
 `)
 ```
+
 ```tasks
 not done
 group by folder

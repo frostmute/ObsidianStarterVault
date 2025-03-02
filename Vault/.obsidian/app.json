@@ -14,9 +14,9 @@
   },
   "showFrontmatter": false,
   "showInlineTitle": false,
-  "propertiesInDocument": "hidden",
+  "propertiesInDocument": "source",
   "showLineNumber": true,
-  "autoConvertHtml": true,
+  "autoConvertHtml": false,
   "trashOption": "local",
   "showUnsupportedFiles": true,
   "uriCallbacks": true,
@@ -40,5 +40,8 @@
     "obsidian-tasks-plugin:edit-task",
     "obsidian-tasks-plugin:toggle-done",
     "editor:configure-toolbar"
-  ]
+  ],
+  "focusNewTab": false,
+  "newLinkFormat": "relative",
+  "strictLineBreaks": false
 }

@@ -1,0 +1,140 @@
+_data_ Overview
+
+%% Begin Waypoint %%
+- **media**
+	- **banners**
+
+- **pinned**
+	- [[Sidebar Navigation]]
+	- [[pinned/Tasks]]
+- **scripts**
+	- **dataview**
+
+	- **javascript**
+
+- **templates**
+	- **0A_1_Logs**
+		- [[0A_1_1_DailyLog]]
+		- [[0A_1_2_WeeklyReview]]
+		- [[0A_1_3_MonthlyLog]]
+		- [[0A_1_4_YearlyGoals]]
+		- [[0A_1_5_YearlyReview]]
+		- [[0A_1_6_WeeklyLog]]
+		- [[0A_1_7_DailyLog_V2]]
+		- [[0A_1_8_WeeklyReview_V2]]
+		- [[0A_1_9_WeeklyLog_V2]]
+		- [[0A_1_10_WeekAndDailyLog]]
+	- **0A_2_Lists**
+		- [[0A_2_1_List]]
+	- **0A_3_Project**
+		- [[0A_3_1_Project]]
+		- [[0A_3_2_ActionPlan]]
+		- [[0A_3_3_Project_V2]]
+		- [[0A_3_4_ProjectProposal]]
+	- **0A_4_Course**
+		- [[0A_4_1_Course]]
+		- [[0A_4_2_CourseNote]]
+		- [[0A_4_3_CourseNote_V2]]
+	- **0A_5_DecisionMaking**
+		- [[0A_5_1_DecisionMaking]]
+	- **0A_6_Books**
+		- [[0A_6_1_Books]]
+	- **0A_7_Blog**
+		- [[0A_7_1_Blog]]
+	- **0A_8_Reviews**
+		- [[0A_8_1_GameReview]]
+	- **0A_9_Recipes**
+		- [[0A_9_1_Recipes]]
+	- **0A_10_Entertainment**
+		- [[0A_10_1_Entertainment]]
+		- [[0A_10_2_Movies&ShowReview]]
+	- **[[0A_11_Application]]**
+	- **[[0A_12_Contact]]**
+	- **0A_13_Meeting**
+		- [[0A_13_1_Meeting]]
+		- [[0A_13_2_DailyCheckIn]]
+	- **0A_14_Trackers**
+		- [[0A_14_1_SlipBox]]
+		- [[0A_14_2_HabitChallenge]]
+		- [[0A_14_3_DailyTracker]]
+	- **0A_15_Company**
+		- [[0A_15_1_Company]]
+	- **0A_16_Investment**
+		- [[0A_16_1_Stocks]]
+	- **0A_17_WordDictionary**
+		- [[0A_17_1_WordDictionary]]
+	- **[[0A_99_Index]]**
+	- [[0A_Index]]
+	- **callouts**
+		- [[Abstract callout]]
+		- [[Bug callout]]
+		- [[Caution callout]]
+		- [[Danger callout]]
+		- [[Done callout]]
+		- [[Error callout]]
+		- [[Example callout]]
+		- [[Failure callout]]
+		- [[FAQ callout]]
+		- [[Help callout]]
+		- [[Important callout]]
+		- [[Info callout]]
+		- [[Missing callout]]
+		- [[Note callout]]
+		- [[Question callout]]
+		- [[Quote callout]]
+		- [[Success callout]]
+		- [[Summary callout]]
+		- [[Tip callout]]
+		- [[Todo callout]]
+		- [[Warning callout]]
+	- **dataview**
+		- [[Dataview flat table]]
+		- [[Dataview nested table]]
+		- [[Insert navigation bar]]
+		- [[List installed plugins]]
+	- **general**
+		- [[Blank page]]
+		- [[Boilerplate]]
+		- [[Book]]
+		- [[Concept]]
+		- [[Contact]]
+		- [[Definition]]
+		- [[Empty page]]
+		- [[Insert code block]]
+		- [[Insert columns]]
+		- [[Insert external link]]
+		- [[Insert formula variable definition]]
+		- [[Insert header 1]]
+		- [[Insert header 2]]
+		- [[Insert header 3]]
+		- [[Insert header 4]]
+		- [[Insert header 5]]
+		- [[Insert header 6]]
+		- [[Insert table of contents]]
+		- [[Journal entry]]
+		- [[Math constant]]
+		- [[Math formula]]
+		- [[Note page]]
+		- [[Travel and Trip]]
+	- **learning**
+		- [[Course assignment]]
+		- [[Course lecture]]
+		- [[Course note]]
+		- [[Course setup]]
+	- **project**
+		- [[Project boilerplate page]]
+		- [[Project feature]]
+		- [[Project meeting]]
+		- [[Project note]]
+		- [[Project setup meetings]]
+		- [[Project setup notes]]
+		- [[Project setup references]]
+		- [[Project setup tasks]]
+		- [[Project setup]]
+		- [[Project task]]
+	- **resources**
+		- [[Resource]]
+	- **spaces**
+		- [[Space home]]
+
+%% End Waypoint %%

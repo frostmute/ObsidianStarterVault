@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9a2c68d76e605e7a",
+        "id": "fb4c2a192e7e5fac",
         "type": "tabs",
         "children": [
           {
-            "id": "22f37e1f9d6c2be9",
+            "id": "ae1f55a4ac75bcd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "03 Notes/03 Notes.md",
                 "mode": "preview",
                 "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Projects"
+              "title": "03 Notes"
             }
           }
         ]
@@ -43,21 +34,8 @@
       {
         "id": "6a5a46f35bfd6e3b",
         "type": "tabs",
-        "dimension": 56.257668711656436,
+        "dimension": 52.167832167832174,
         "children": [
-          {
-            "id": "b086af801e8a41b7",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "0d898f7a13d78898",
             "type": "leaf",
@@ -76,6 +54,30 @@
             }
           },
           {
+            "id": "22f37e1f9d6c2be9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_data_/pinned/Sidebar Navigation.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sidebar Navigation"
+            }
+          },
+          {
             "id": "fdd19e4ea68307e0",
             "type": "leaf",
             "state": {
@@ -84,38 +86,124 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          }
-        ]
-      },
-      {
-        "id": "0e964d733e1ce9e0",
-        "type": "tabs",
-        "dimension": 19.938650306748464,
-        "children": [
+          },
           {
-            "id": "a51f21dbb66492da",
+            "id": "bcf0a3ff148a02e2",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "d7b0e54682194486",
+        "type": "tabs",
+        "dimension": 22.237762237762237,
+        "children": [
+          {
+            "id": "37e27ebc27625004",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "calendar",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "pinned": true,
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       },
       {
-        "id": "11e3bb258f66a8a0",
+        "id": "a2fd806b7b16768b",
         "type": "tabs",
-        "dimension": 23.803680981595093,
+        "dimension": 25.594405594405593,
         "children": [
           {
-            "id": "3c0e7b1e7760a8e9",
+            "id": "718016731992099a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_data_/pinned/Tasks.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Tasks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.52083587646484
+  },
+  "right": {
+    "id": "a60f7122a537c574",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e3ab805b43b8465",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acd963a0bcfcf3b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 Notes/03 Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 03 Notes"
+            }
+          },
+          {
+            "id": "3795fe9dac32b278",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 Notes/03 Notes.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03 Notes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6fbf52eed911977e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bc211e046b34cb3",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "03 Notes/03 Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -134,182 +222,103 @@
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": false,
-                  "centerStrength": 0.781185031185031,
-                  "repelStrength": 6.97505197505197,
-                  "linkStrength": 0.681392931392931,
+                  "centerStrength": 0.832611344253418,
+                  "repelStrength": 6.25558413428997,
+                  "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.0000000000000002,
+                  "scale": 1.7561887202488196,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Projects"
+              "title": "Graph of 03 Notes"
             }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 359.5
-  },
-  "right": {
-    "id": "a60f7122a537c574",
-    "type": "split",
-    "children": [
-      {
-        "id": "7e3ab805b43b8465",
-        "type": "tabs",
-        "dimension": 50.897129186602875,
-        "children": [
-          {
-            "id": "3795fe9dac32b278",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Projects/Projects.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Projects"
-            }
-          },
-          {
-            "id": "acd963a0bcfcf3b2",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Projects/Projects.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Projects"
-            }
-          },
-          {
-            "id": "5f31c06ae3f058aa",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Projects/Projects.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Projects"
-            }
-          },
-          {
-            "id": "1cde871858f70aef",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          }
-        ],
-        "currentTab": 3
       },
       {
-        "id": "7b80c465474a1eee",
+        "id": "05b94618df81efb5",
         "type": "tabs",
-        "dimension": 49.10287081339713,
         "children": [
           {
-            "id": "d4cbc286e86d0bbd",
+            "id": "7a18d07f4dc88e6e",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Projects/Projects.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Projects"
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 504.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "zk-prefixer:Create new unique note": false,
       "canvas:Create new canvas": false,
       "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "22f37e1f9d6c2be9",
+  "active": "ae1f55a4ac75bcd2",
   "lastOpenFiles": [
     "Dashboard.md",
-    "Resources/Resources Dashboard.md",
-    "Journal/Entries/2025-02-26.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Resources/Test.md",
-    "Concept Board/Concept Board.md",
-    "Projects/Projects.md",
-    "Personal/Personal Dashboard.md",
-    "Notes/Notes Dashboard.md",
-    "Learning/Learning Dashboard.md",
-    "Notes/Science",
-    "Journal/Journal Dashboard.md",
-    "Journal/Entries/2025-02-25.md",
-    "Journal/Entries/2023-07-21.md",
-    "07 Unsorted/Obsidian Vault Template.md",
-    "Inbox/Inbox.md",
-    "07 Unsorted/Publish your Obsidian Notes - MKDocs Template.md",
-    "07 Unsorted/Obsidian - Link all files in a folder.md",
-    "07 Unsorted/foldermedia/Pasted image 20250226000214.png",
-    "07 Unsorted/foldermedia",
-    "Resources/Element Structure and Format.md",
+    "03 Notes/03 Notes.md",
+    "04 Projects/04 Projects.md",
+    "00 Inbox/00 Inbox.md",
+    "00 Concept Board/Concept Board.md",
+    "02 Learning/02 Learning.md",
+    "01 Journal/Entries/2023-07-21.md",
+    "01 Journal/Entries/2025-02-28.md",
+    "01 Journal/Entries/2025-02-26.md",
+    "01 Journal/Entries/2025-02-25.md",
+    "_data_/templates/general/Journal entry.md",
+    "01 Journal/Journal.md",
     "_data_/templates/resources/Resource.md",
-    "07 Unsorted",
-    "Resources/Element Structure and Formats.md",
+    "_data_/_data_.md",
+    "_data_/templates/general/Concept.md",
+    "_data_/pinned/Sidebar Navigation.md",
+    "06 Spaces/Books/Books Dashboard.md",
+    "06 Spaces/Books/Dune Messiah.md",
+    "05 Resources/05 Resources.md",
+    "05 Resources/Element Structure and Format.md",
     "README.md",
-    "Projects/Top Secret Project/Meetings/2023-10-29 - Example Meeting Note.md",
-    "Projects/Top Secret Project/Meetings/All Meetings.md",
-    "Projects/Top Secret Project/Tasks.md",
-    "Projects/Top Secret Project/Home.md",
-    "Spaces/Obsidian Development",
-    "Spaces/Untitled",
-    "Inbox",
-    "_data_/scripts/javascript/vaultplugins.js",
-    "_data_/scripts/vaultplugins.js",
-    "_data_/scripts/dataview/toc.js",
-    "_data_/scripts/dataview/recent-news.js",
+    "Clippings/2025-03-01T201808-0600 - Fixing folder borders in Obsidian file tree, 2024-12-08T060829.000Z.md",
+    "Clippings",
+    "01 Journal/01 Journal.md",
+    "00 Concept Board/00 Concept Board.md",
+    "06 Spaces/Spaces.md",
+    "_data_/templates/general/Book.md",
+    "_data_/templates/0A_3_Project",
+    "_data_/templates/0A_2_Lists",
+    "_data_/templates/0A_1_Logs",
+    "_data_/templates/0A_99_Index",
+    "_data_/templates/0A_17_WordDictionary",
+    "_data_/templates/0A_16_Investment",
+    "_data_/templates/0A_15_Company",
+    "_data_/templates/0A_14_Trackers",
+    "_data_/templates/0A_13_Meeting",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things 3.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/Obsidian Stuff & Things 2.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/{B0226AAF-D4D8-4747-8E8F-27237F7121E0}.png",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/My Obsidian Customization Screenshots.png",
+    "07 Unsorted/foldermedia/Pasted image 20250226000214.png",
     "_data_/media/banners/banner-personal-01.jpg",
     "_data_/media/banners/cosmic-dawn-initiative.png",
     "_data_/media/banners/cosmic-dawn-initiative.png",
-    "_data_/media/banners/banner-personal-02.jpg",
-    "_data_/media/banners/banner-proprietary-01.jpg",
-    "_data_/media/banners/banner-proprietary-02.jpg",
-    "_data_/media/dashboard-preview.png",
-    "_data_/media/255020736-42c6f878-46e3-4602-9224-5d92918bef07.png",
-    "_data_/media/profile-picture-placeholder.jpg"
+    "_data_/media/banners/banner-personal-02.jpg"
   ]
 }

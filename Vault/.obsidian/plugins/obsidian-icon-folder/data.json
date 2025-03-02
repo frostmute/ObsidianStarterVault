@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 30,
+    "emojiStyle": "native",
+    "iconColor": "#d4d4d4",
+    "recentlyUsedIcons": [
+      "RiStickyNoteFill",
+      "RiGraduationCapFill",
+      "LiNotebookPen",
+      "🗒",
+      "RiInboxArchiveFill",
+      "RiDashboardFill",
+      "RiStackFill",
+      "FarFloppyDisk"
+    ],
+    "recentlyUsedIconsSize": 25,
+    "rules": [],
+    "extraMargin": {
+      "top": 2,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "inline",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": false,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "_data_": {
+    "iconName": "FarFloppyDisk",
+    "iconColor": "#d4d4d4"
+  },
+  "00 Concept Board": {
+    "iconName": "RiDashboardFill",
+    "iconColor": "#00b37d"
+  },
+  "07 Unsorted": {
+    "iconName": "RiStackFill",
+    "iconColor": "#a80049"
+  },
+  "00 Inbox": {
+    "iconName": "RiInboxArchiveFill",
+    "iconColor": "#00b871"
+  },
+  "01 Journal": {
+    "iconName": "LiNotebookPen",
+    "iconColor": "#75ddff"
+  },
+  "02 Learning": {
+    "iconName": "RiGraduationCapFill",
+    "iconColor": "#1aa7ff"
+  },
+  "03 Notes": {
+    "iconName": "RiStickyNoteFill",
+    "iconColor": "#0f6bff"
+  }
+}

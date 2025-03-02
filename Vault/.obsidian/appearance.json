@@ -1,15 +1,30 @@
 {
-  "accentColor": "#00f0cc",
+  "accentColor": "#7b42ff",
   "theme": "obsidian",
-  "cssTheme": "Minimal",
+  "cssTheme": "Border",
   "enabledCssSnippets": [
-    "Custom style",
     "Multi columns",
-    "tailwind",
-    "Pinned Pages"
+    "Daily Note Themes",
+    "Notebook Backgrounds",
+    "nicer-checkboxes",
+    "MYHOME",
+    "img-shadow-roundedBorder",
+    "memos",
+    "Colored Sidebar Items",
+    "dashboard-ReadLineLength",
+    "template-buttons",
+    "template-colors",
+    "template-gallery",
+    "template-home",
+    "template-layout",
+    "template-tasks",
+    "folder_border_fix-1",
+    "minimal-cards_anu"
   ],
   "baseFontSize": 17,
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": ""
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "monospaceFontFamily": "Mononoki Nerd Font",
+  "baseFontSizeAction": true,
+  "showViewHeader": true
 }
