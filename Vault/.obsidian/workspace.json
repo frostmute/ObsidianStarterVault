@@ -6,7 +6,7 @@
       {
         "id": "fb4c2a192e7e5fac",
         "type": "tabs",
-        "dimension": 42.784090909090914,
+        "dimension": 42.78409090909091,
         "children": [
           {
             "id": "ae1f55a4ac75bcd2",
@@ -30,7 +30,7 @@
       {
         "id": "cb54c16cb724c6b6",
         "type": "tabs",
-        "dimension": 57.215909090909086,
+        "dimension": 57.21590909090909,
         "children": [
           {
             "id": "f5b97f7c034ea0d6",
@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
+                "file": "07 Unsorted/07 Unsorted.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI Powered Bookmark Manager"
+              "title": "07 Unsorted"
             }
           }
         ]
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "07 Unsorted/AI Powered Bookmark Manager.md",
+                "file": "07 Unsorted/07 Unsorted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -226,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of AI Powered Bookmark Manager"
+              "title": "Graph of 07 Unsorted"
             }
           }
         ]
