@@ -105,9 +105,9 @@ if(filteredPages.values.length > 0){
 
 %% Begin Waypoint %%
 - [[Adding a custom font to Obsidian Android iOS]]
+- [[DataView Snippet - list properties and their status in the file]]
 - [[Element Structure and Format]]
-- [[README]]
-- [[Test]]
+- [[README - Obsidian Starter Vault by SoRobby]]
 - [[Using 'Group By' in DataviewJS]]
 
 %% End Waypoint %%

@@ -5,6 +5,8 @@ date_modified: 2025-02-25
 document_type: resource
 tags:
   - resource
+  - formatting
+  - examples
 ---
 [[05 Resources|Resources]] / **[[Element Structure and Format|Element Structure and Format]]**
 

@@ -10,39 +10,19 @@ tags:
 cssclasses:
   - cards
 ---
-**[[Home|Home]]** | [[Meetings/All Meetings|Meetings]] | [[Notes/All Notes|Notes]] | [[References|References]]
+**[[Home|Home]]** | [[Notes/All Notes|Notes]] |
+
+
 # Data annotation.tech
-**Description**:: AI Training Freelance Job
-**Link**: *add link (if relevant)*
+**Description**:: AI Training; prompt creation, analyzation, evaluation, annotation. Freelance Job.
+**Link**: [https://dataannotation.tech](https://dataannotation.tech)
 
 
 ## Tasks
 *[[Tasks|+ Add a task]]*
 ```dataviewjs 
-dv.taskList(dv.pages('"Projects/Data annotation.tech"').file.tasks .where(t => !t.completed))
+dv.taskList(dv.pages('"04 Projects/Data annotation.tech"').file.tasks .where(t => !t.completed))
 ```
-
-## Meetings
-```button
-name + Add meeting
-type note(Projects/Data annotation.tech/Meetings/untitled meeting) template
-action project/Project meeting
-templater true
-class tailwind-button-white
-```
-```dataviewjs
-for(let group of dv.pages('"Projects/Data annotation.tech/Meetings" and !#meetings').limit(10).groupBy(p => p.meeting)) {
-	dv.table(["Name", "Description", "Date created"], 
-		group.rows 
-			.sort(k => k.file.ctime, 'desc')
-			.map(k => [
-			k.file.link, 
-			k['description'],
-			k.file.ctime.year+"-"+k.file.ctime.month+"-"+k.file.ctime.day
-			]))}
-```
-*Only showing the last 10 meetings*
-*[[Meetings/All Meetings|View all meetings →]]*
 
 ## Notes
 ```button
@@ -53,7 +33,7 @@ templater true
 class tailwind-button-white
 ```
 ```dataviewjs
-for(let group of dv.pages('"Projects/Data annotation.tech/Notes" and !#dashboard and !#notes').limit(10).groupBy(p => p.note)) {
+for(let group of dv.pages('"04 Projects/Data annotation.tech/Notes" and !#dashboard and !#notes').limit(10).groupBy(p => p.note)) {
 	dv.table(["Name", "Description", "Date created"], 
 		group.rows 
 			.sort(k => k.file.ctime, 'desc')
@@ -67,4 +47,4 @@ for(let group of dv.pages('"Projects/Data annotation.tech/Notes" and !#dashboard
 *[[Notes/All Notes|View all notes →]]*
 
 ---
-**[[Home|Home]]** | [[Meetings/All Meetings|Meetings]] | [[Notes/All Notes|Notes]] | [[References|References]]
+**[[Home|Home]]** | [[Notes/All Notes|Notes]] |

@@ -1,3 +1,14 @@
+---
+date_created: 2025-02-28
+date_modified: 2025-03-01
+document_type: resource
+tags:
+  - resource
+  - dataview
+  - obsidian
+  - dataviewJS
+---
+
 # Using 'Group By' in DataviewJS
 
 I'm trying to build a simple tea database of teas I drink so I can rank them and refer to it later. Dataview felt like the perfect thing to consolidate it all. I got it into a table showing the tea name, brand, and type. I noticed in some videos or forums where they had their tables sectioned out into categories. Further reading led me to the GROUP BY command. I tried this out to group by Brand and it's not the result I was expecting. Further looking into it, I could not find any examples that show one that worked. I found a video of guy explaining it's complicated and you have to use a `rows.file.name` or something which he didn't go into detail about. Not sure if this has to be done with dataviewjs?

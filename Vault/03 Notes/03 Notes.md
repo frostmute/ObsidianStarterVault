@@ -73,7 +73,7 @@ for (let group of dv.pages('"Notes" and !#dashboard').groupBy(p => p.note)) {
 - **[[AI AI AI]]**
 - **[[Development]]**
 - **[[Hacking & Security]]**
-- **[[Inspiration]]**
+- **[[Inspiration & Advice]]**
 - **[[Mobile]]**
 - **[[Note Taking]]**
 - **[[Obsidian]]**
@@ -81,11 +81,7 @@ for (let group of dv.pages('"Notes" and !#dashboard').groupBy(p => p.note)) {
 - **[[Philosophy]]**
 - **[[Piracy]]**
 - **[[Political & Social]]**
-- **Science**
-	- [[Enceladus Geysers Potential Causes]]
-	- [[Enceladus Ice Thickness]]
-	- [[Radiation Belt Locations]]
-	- [[Solar Cycle Duration]]
+- **[[Science]]**
 - **[[Stories for Theia]]**
 - **[[Video Editing]]**
 

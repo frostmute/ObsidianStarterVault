@@ -6,7 +6,7 @@ _data_ Overview
 
 - **pinned**
 	- [[Sidebar Navigation]]
-	- [[pinned/Tasks]]
+	- [[Tasks]]
 - **scripts**
 	- **dataview**
 

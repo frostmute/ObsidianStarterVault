@@ -1,3 +1,16 @@
+---
+date_created: 2025-02-20
+date_modified: 2025-03-01
+document_type: resource
+tags:
+  - resource
+  - fonts
+  - mobile
+  - obsidian
+---
+
+[[05 Resources]] / **[[Adding a custom font to Obsidian Android iOS]]**
+
 Hi, I want to share how I added a custom font to Android/iOS devices. This technique employs Obsidian’s CSS snippet feature so you do not need to install or create a custom theme.
 
 You need a WOFF2 file for your custom font. If you only have TTF file or something, convert them to WOFF2. There are plenty of tools online to do this.
@@ -12,4 +25,4 @@ Now Obsidian will recognize your custom font even if your phone does not have it
 
 If Obsidian does not recognize your font, check the font-family property in your fonts.css. font-familiy property and Settings > Appearance > Font setting must exactly match.
 
-
+[[05 Resources]] / **[[Adding a custom font to Obsidian Android iOS]]**

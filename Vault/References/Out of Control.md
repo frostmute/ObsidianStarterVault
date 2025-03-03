@@ -1,7 +1,7 @@
 ---
 category:
   - "[[Books]]"
-cover: "[[out-of-control.jpg]]"
+cover: "[[../_data_/media/out-of-control.jpg]]"
 isbn: 201483408
 isbn13: 9780201483406
 length: "528"
