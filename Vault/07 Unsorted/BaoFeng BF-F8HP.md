@@ -1,0 +1,14 @@
+---
+feature: "![[../03 - MEDIA & FILES/2ea96c43978cce830c6bd94e3257fe10_MD5.jpg]]"
+---
+![](../03%20-%20MEDIA%20&%20FILES/2ea96c43978cce830c6bd94e3257fe10_MD5.jpg)
+
+### The BaoFeng BF-F8HP
+
+High power at an affordable price! Feel free to take your radio with you anywhere you go! No other radio can compare against our capabilities, affordability, and concierge service!
+
+### The BF-F8HP Adds More than Just 8 Watt Power Output
+
+|![](../03%20-%20MEDIA%20&%20FILES/915ffb9d7d0fa5e26bee05b02ec32c6c_MD5.jpg)|![](../03%20-%20MEDIA%20&%20FILES/16b7ee451627d240683a32a4cb2f60aa_MD5.jpg)|![](../03%20-%20MEDIA%20&%20FILES/ed12f86f7658a2fc4e8d19e78f70c094_MD5.jpg)|![](../03%20-%20MEDIA%20&%20FILES/c3e6d365f51b9997c3513fe4d283399a_MD5.jpg)|
+
+#### The Next Generation UV-5R<br><br>The BF-F8HP is a dual band handheld radio that improves on the UV-5R with more transmit power based on a new generation chipset - along with new concierge service.<br><br>Beyond the 3 Power Levels (1, 4, 8 watt) it also includes: a new 2000mAh Battery, an in-depth user guide, concierge support, and the High Gain V-85 Antenna. All while still maintaining full backward accessory compatibility with all prior UV-5R accessories.<br><br>The BF-F8HP has the latest N5R-340A firmware not available on any other model.|#### 30% Larger Battery<br><br>The BF-F8HP includes a new battery pack that still provides a long lasting radio experience; even while using high power.<br><br>Average Battery Life:<br><br>UV-5R High (4W): 18 Hours.<br><br>BF-F8HP High (8W): 20 Hours.<br><br>BF-F8HP Mid (5W): 24 Hours.<br><br>The large battery gives you peace of mind to use the built-In flashlight or even the built in FM radio - and still have the power to communicate throughout the day without recharging.|#### In Depth Documentation and Concierge Support<br><br>The BF-F8HP was designed in the USA and because not everyone is a radio-expert we really wanted to focus on providing an easier user experience! That starts with the new in-depth manual that guides you through the capabilities and customization of the BF-F8HP. On top of that the BF-F8HP also includes exclusive concierge customer help and warranty support. This concierge service is only available on select BaoFeng models such as the BF-F8HP.|#### What's All Included?<br><br>BaoFeng BF-F8HP.<br><br>2000mAh Battery.<br><br>V-85 Antenna.<br><br>Power Adapter.<br><br>Earpiece.<br><br>Belt Clip.<br><br>Hand Strap.<br><br>Battery Charger.<br><br>User Manual.<br><br>1 Year Complimentary Concierge Service and Warranty Support. (Conditions apply. Kindly contact customer care/website for further information).|

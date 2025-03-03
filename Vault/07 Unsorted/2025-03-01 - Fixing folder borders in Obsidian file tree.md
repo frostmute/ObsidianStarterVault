@@ -17,6 +17,8 @@ image:
 >This article provides a CSS snippet to fix an issue in Obsidian where folder borders in the >file tree remain highlighted after a right-click context menu action. The fix involves >creating a CSS snippet in the `.obsidian/snippets` folder with the following content: `.tree-item->self.has-active-menu{box-shadow: none;}`. The snippet disables the box-shadow effect that causes the >persistent highlighting.
 
 ---
+# Fixing folder borders in Obsidian file tree
+
 
 You might have seen those annoying borders around items in Obsidian file tree:
 
@@ -34,5 +36,3 @@ To disable the visual effect, create a simple CSS snippet (or [download one here
 `}`
 4. Save the file.
 5. In Obsidian, go to Settings -> Appearance -> scroll down to CSS snippets section -> click Reload snippets and you should see the file you just created. Click the toggle to enable snippet and it should resolve the issue.
-
-![Aleksei](https://technerium.com/fixing-folder-borders-in-obsidian-file-tree/content/images/size/w150h150/2020/12/JGlqNshZRt15_avatar-vector-professional-6.png)

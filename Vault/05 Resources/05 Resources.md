@@ -107,6 +107,8 @@ if(filteredPages.values.length > 0){
 - [[Adding a custom font to Obsidian Android iOS]]
 - [[DataView Snippet - list properties and their status in the file]]
 - [[Element Structure and Format]]
+- [[Index of survivorlibrary.com on THEEYE]]
+- [[JetBrains Product Pack for Students - License ID (Lammond Coppo)]]
 - [[README - Obsidian Starter Vault by SoRobby]]
 - [[Using 'Group By' in DataviewJS]]
 

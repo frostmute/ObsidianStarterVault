@@ -1,0 +1,383 @@
+---
+banner: 03 MEDIA & FILES/Graphic.png
+created: 2024-06-09T06:58:11
+source: https://raw.githubusercontent.com/Lithou/Sandbox/65c1a1c51ac4a16e76a809eea038dd14473d1763/.obsidian/snippets/pub-Image%20Flags.css
+author: Lithou
+feature: "![[test.jpg]]"
+---
+
+```cardlink
+url: https://raw.githubusercontent.com/Lithou/Sandbox/65c1a1c51ac4a16e76a809eea038dd14473d1763/.obsidian/snippets/pub-Image%20Flags.css
+title: "Image Flags Snippet by Lithou"
+description: "none"
+host: raw.githubusercontent.com
+```
+
+
+```
+/*Image Flags Snippet by Lithou
+http://github.com/lithou/sandbox
+
+2022-06-29 - Updated to work with the live preview in edit mode. Most will continue to work except the grid view. 
+*/
+
+
+/* Customization 
+This snippet is setup so that most of the customization can be achieved by editing
+the following variables instead of editing the actual CSS rules themselves. 
+
+There are some advanced funtions that will require editing the rules, but 99% of 
+people wont need to do this to get the snippet to do what they want it to. 
+
+Feel free to change these to customize the look and feel to what you need. 
+I have listed the default values for each in comments if you want to revert one back. */ 
+
+
+
+span.image-embed, div.image-embed, img{  
+    
+    /* Size Flags - These are the widths of the size flags. 
+    They are by default setup to evenly fit and space images with the display window. */
+    --sizethumb: 11.50%;
+    --sizesmall: 24%;   
+    --sizemed: 32.3333%;
+    --sizelarge: 49%;
+    --sizehuge: 67%;
+    --sizefull: 100%;
+    --sizefullwidth: 120%;
+
+    /* Other Dimensions */
+    --coremarg: 1%; /* This is the base margin placed between images. */
+    --extramarg: 1%; /* This margin is used for any added margin between items. Default 1% */
+    --defaultwidth: 49%; /*This is the width for core flags such as the "side" and "tape" if no size modifier flags are used Default 49% &lt;- this will be half of the screen space since the margin will take up the other 1-2% */
+    --PLdefaultsize: 30%; /* This is the amount that the ellipse shape of the +portrait and +landscape flags gets flattened in the narrower dimension. Default: 30% */
+    --PLdefaultsize2: 45%; /*This is the amount that the ellipse shape of the +portrait and +landscape flags gets flattened in the wider dimension. Default: 45% */
+    --PLborder: 1%; /*This is the amount of bg that is visible for the +landscape and +portrait flags. Visually this will appear like a border. Default 1% */
+    --minwidth: 50px; /* This specifies the minimum width that %based width images will go to. This prevents images from becoming practically invisible as the window is scaled down. Default 50px */
+    --hoverzoomscale: 1.5; /* This specifies the default ratio that an image is enlarged when hovered over. Default 1.5 &lt;-- This makes the image 150% larger than original size. It scales with size modifier flags as well. */
+    --imagelayer: 50; /* this is the layer of the z-index used for the image divs. This is so that the images will sit on top of the surrounding divs. If this is not set higher than other layers, the zoom on hover will break depending on where the mouse is on the image. Default: 50 &lt;-- This should be sufficient unless your theme or another snippet is setting things higher. In that case you can increase this, but I would talk to your theme/snippet designer to discuss why they used the z-layer and if this will break anything.  */
+    --Tapewidth: 30%; /* This is the width of the piece of tape for the +tape flag. It is a percentage of the picture size. Default 30% */
+    --Tapeheight: 14%; /* This is the height of the piece of tape for the +tape flag. I recommend slightly less than half the width. Default 14% */
+    --pushpinsize: 15px; /* This is the default size of the pushpin for the +pin flag. It is a static size. Default 15px */
+
+    /* Borders */
+    --bordersizedef: 5px; /*This is the default border thickness. Default: 5px */
+    --bordertypedef: solid; /* This is the default border style. Default: Solid */
+    --bordersizethin: 1px;  /* This is the border thickness when using the -bthin flag. Default: 1px */
+    --bordersizethick: 15px;  /* This is the border thickness when using the -bthick flag. Default: 15px */
+    --borderround1: 5px;  /* This is the rounded border dimension when using the -bround1 flag. Default 5px */
+    --borderround2: 25px; /* This is the rounded border dimension when using the -bround2 flag. Default 25px */
+    --borderroundindv: 20px;  /* This is the rounded border dimension when using flags to set an individual corner such as -TLround. Default 20px */
+}
+
+
+/* Colours */
+span.image-embed, div.image-embed, img{
+    --PLbordercolor: purple; /* This is the default border color when no specific border tag is used. This applies to +portrait, +landscape, +hr, and +header flags. Default: black */
+    --bordercolor1: black;  /* These 3 are the colors for the corosponding border flags. */
+    --bordercolor2: white;
+    --bordercolor3: #112288;
+
+    --shadowcolor: #555555; /* This is the color for the shadow effect */ 
+    --glowcolor: #6699CC; /* This is the color for the glow effect */ 
+    --tapecolor: rgba(255, 234, 118, 0.377); /* this is the color of the tape for the +tape flag. Note that it has both a color (first 3 digits) and a transparency value (last digit). You can change it to a solid color if you want, but will lose the transparency effect. Default rgba(255, 234, 118, 0.377) */
+    --pincolor1: #336699; /* This is the core color for the push pin for the +pin flag default #336699 */
+    --pincolor2: #4588cc; /* This is the center color of the pin. Can be the same as the core color or different default #4588cc*/
+    --pincolor3: #274d74; /* This is the color of the shadow of the pin. Slightly darker color of the same hue as the core color is recommended. Default: #274d74 */
+
+}
+
+
+/* Core Flags */
+    /*side */
+        div[alt*="+side"], span[alt*="+side"]{
+            width: var(--defaultwidth);
+            min-width: var(--minwidth);
+            position: relative;
+            float: right;
+            margin: 0px;
+            margin-left: var(--coremarg);
+            z-index: var(--imagelayer);
+        }
+        
+    /*tape */
+
+        div[alt*="+tape"],span[alt*="+tape"]{
+            position: relative;
+            float: right;
+            width: var(--defaultwidth);
+            min-width: var(--minwidth);
+            margin: auto;
+            margin-top: calc(2*(var(--coremarg)));
+            margin-left: var(--coremarg);
+            transform: rotate(2deg);
+            z-index: var(--imagelayer);
+            }
+
+
+        div[alt*="+tape"]::before,span[alt*="+tape"]::before {
+            content: "";
+            position: absolute;
+            margin: auto;
+            width: var(--Tapewidth);
+            height: var(--Tapeheight);
+            top: calc(var(--Tapeheight)/-2);
+            left: calc((100% - var(--Tapewidth))/2);
+            background: var(--tapecolor);
+            clip-path: polygon(50% 0%, 100% 0%, 
+            98% 10%, 100% 20%, 98% 30%, 100% 40%, 98% 50%, 100% 60%, 98% 70%, 100% 80%, 98% 90%,100% 100%,
+            0% 100%, 2% 90%, 0% 80%, 2% 70%, 0% 60%, 2% 50%, 0% 40%, 2% 30%, 0% 20%, 2% 10%, 0% 0%);  
+            }
+
+
+    /* Push Pin */
+        div[alt*="+pin"],span[alt*="+pin"] {
+            position: relative;
+            float: right;
+            width: var(--defaultwidth);
+            min-width: var(--minwidth);
+            margin: auto;
+            margin-left: var(--coremarg);
+            margin-top: calc(2*(var(--coremarg)));
+            /* -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -ms-transform: rotate(0deg); */
+            transform: rotate(2deg);
+            z-index: var(--imagelayer);
+        
+        }
+
+        div[alt*="+pin"]::before,span[alt*="+pin"]::before {
+            content: "";
+            position: absolute;
+            width: var(--pushpinsize);
+            height: var(--pushpinsize);
+            background-color: var(--pincolor2);
+            top: calc(var(--pushpinsize)/-1);
+            left: calc(50% - var(--pushpinsize)); 
+            border: solid var(--pincolor1) calc(var(--pushpinsize)*0.8);
+            border-radius: 50%;
+            box-shadow: var(--pincolor3) calc(var(--pushpinsize)*-.5) calc(var(--pushpinsize)*.3) 1px;}
+
+
+    /* Portrait and Landscape */
+        div[alt*="+portrait"],span[alt*="+portrait"]{
+            float: right;
+            position: relative;
+            width: var(--defaultwidth);
+            min-width: var(--minwidth);
+            vertical-align: top;
+            border: solid 5px;
+            background-color: var(--PLbordercolor); 
+            clip-path: ellipse(calc(var(--PLdefaultsize) + var(--PLborder)) calc(var(--PLdefaultsize2) + var(--PLborder)) at 50% 50%);
+            z-index: var(--imagelayer);
+            }
+        img[alt*="+portrait"]{
+            clip-path: ellipse(var(--PLdefaultsize) var(--PLdefaultsize2) at 50% 50%);
+            vertical-align: top;
+            }
+
+
+        div[alt*="+landscape"],span[alt*="+landscape"]{
+            position: relative;
+            width: var(--defaultwidth);
+            min-width: var(--minwidth);
+            float: right;
+            border: solid 3px;
+            background-color: var(--PLbordercolor);
+            clip-path: ellipse(calc(var(--PLdefaultsize2) + var(--PLborder)) calc(var(--PLdefaultsize) + var(--PLborder)) at 50% 50%);
+            z-index: var(--imagelayer);
+            }
+        img[alt*="+landscape"]{
+            vertical-align: top;
+            clip-path: ellipse(var(--PLdefaultsize2) var(--PLdefaultsize) at 50% 50%);
+        }
+
+    /* Banner and HR */
+        div[alt*="+banner"],span[alt*="+banner"]{
+            display: block;
+            height: 100px;
+            overflow: hidden;
+        }
+
+        img[alt*="+banner"]{
+             margin-top: -130px;
+            }
+
+        div[alt*="+hr"],span[alt*="+hr"]{
+            display: block;
+            height: 10px;
+            overflow: hidden;
+            border-radius: 20px;
+
+        }
+        img[alt*="+hr"]{
+            margin-top: -200px;
+            }
+        
+
+
+
+
+ 
+
+/* Modifier Flags */
+    /* Orientation and position */
+        div[alt*="-left"]{
+            float: left;
+            margin: 0px;
+            margin-right: var(--extramarg);}
+        div[alt*="-right"]{
+            float: right;
+            margin: 0px;
+            margin-left: var(--extramarg);}
+        div[alt*="-fix"]{position: fixed;}
+        div[alt*="-abs"]{position: absolute;}
+
+    /* Size */
+
+  
+        span[alt*="-thumb"],div[alt*="-thumb"]{width: var(--sizethumb);}
+        span[alt*="-sm"],div[alt*="-sm"]{width: var(--sizesmall);}
+        span[alt*="-med"], div[alt*="-med"]{width: var(--sizemed);}
+        span[alt*="-lg"],div[alt*="-lg"]{width: var(--sizelarge);}
+        span[alt*="-huge"],div[alt*="-huge"]{width: var(--sizehuge);}
+        span[alt*="-full"],div[alt*="-full"]{width: var(--sizefull);}
+        span[alt*="-cwidth"],div[alt*="-cwidth"]{float: none;margin-left: -10%;width: var(--sizefullwidth);}
+        div[alt*="+"]&gt;img{width: 100%;}
+        span[alt*="+"]&gt;img{width: 100%;}
+    /* Borders */
+        img[alt*="-border1"]{
+        border: var(--bordertypedef) var(--bordercolor1) var(--bordersizedef);} /* This is for side, tape, and pin images */
+        div[alt*="+landscape"][alt*="-border1"],span[alt*="+landscape"][alt*="-border1"],div[alt*="+portrait"][alt*="-border1"],span[alt*="+portrait"][alt*="-border1"]
+        {background-color: var(--bordercolor1);} /* This is for portrait and landscape images */
+
+        img[alt*="-border2"]{
+        border: var(--bordertypedef) var(--bordercolor2) var(--bordersizedef);}/* This is for side, tape, and pin images */
+        div[alt*="+landscape"][alt*="-border2"],span[alt*="+landscape"][alt*="-border2"],div[alt*="+portrait"][alt*="-border2"],span[alt*="+portrait"][alt*="-border2"]
+        {background-color: var(--bordercolor2);} /* This is for portrait and landscape images */
+
+        img[alt*="-border3"]
+        {border: var(--bordertypedef) var(--bordercolor3) var(--bordersizedef);}/* This is for side, tape, and pin images */
+        div[alt*="+landscape"][alt*="-border3"],span[alt*="+landscape"][alt*="-border3"],div[alt*="+portrait"][alt*="-border3"],span[alt*="+portrait"][alt*="-border3"]
+        {background-color: var(--bordercolor3);}/* This is for portrait and landscape images */
+
+
+        /* Note that border radius and thickness does not affect portrait and landscape since they use a clip path */
+        img[alt*="-bround1"]{border-radius: var(--borderround1);} 
+        img[alt*="-bround2"]{border-radius: var(--borderround2);}
+        img[alt*="-TLround"]{border-top-left-radius: var(--borderroundindv);}
+        img[alt*="-BRround"]{border-bottom-right-radius: var(--borderroundindv);}
+        img[alt*="-TRround"]{border-top-right-radius: var(--borderroundindv);}
+        img[alt*="-BLround"]{border-bottom-left-radius: var(--borderroundindv);}
+        img[alt*="-bthick"]{border-width: var(--bordersizethick);}
+        img[alt*="-bthin"]{border-width: var(--bordersizethin);}
+
+
+
+    /* Shadows */
+        span[alt*="-shadow"]&gt;img,
+        div[alt*="-shadow"]&gt;img{
+            box-shadow: var(--shadowcolor) -4px 4px 8px 2px;
+        }
+        span[alt*="-shadow"],div[alt*="-shadow"]{
+            padding: 20px;
+        }
+
+        img[alt*="-glow"]{
+            box-shadow: var(--glowcolor) 0px 0px 20px;
+        }
+        span[alt*="-glow"],div[alt*="-glow"]{
+            padding: 20px;
+        }
+        span[alt*="-glow2"]&gt;img[alt*="-glow2"]{
+            box-shadow: var(--glowcolor) 0px 100px 250px;
+        }
+        span[alt*="-nofloat"],div[alt*="-nofloat"]{
+            display: inline-block;
+            float: unset;
+        }
+
+
+/* Zoom on Hover */
+/* 
+Comment out any lines where you don't want "zoom on hover".
+- The lines that start with "div" will be for live preview in edit mode
+- The lines that start with "span" will be for full preview "reading" mode
+- You can enable/disable them independently
+*/
+    div[alt*="+side"]:not(:active):hover,
+    span[alt*="+side"]:not(:active):hover,
+    div[alt*="+portrait"]:not(:active):hover,
+    span[alt*="+portrait"]:not(:active):hover,
+    div[alt*="+landscape"]:not(:active):hover,
+    span[alt*="+landscape"]:not(:active):hover{
+    transform: scale(var(--hoverzoomscale));
+    }
+
+/* zoom and reverse rotate on hover */
+    img[alt*="+tape"]:not(:active):hover,
+    img[alt*="+pin"]:not(:active):hover{
+        transform: scale(var(--hoverzoomscale)) rotate(-2deg);
+    }
+
+
+
+/* Grid View */
+table{
+    table-layout: auto;
+    max-width: 100%;
+}
+span[alt*="+grid"],div[alt*="+grid"]{
+    display: table-cell!important;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+img[alt*="+grid"]{
+    max-height: 30vh;
+}
+
+img[alt*="+grid"]:hover{
+    transform: scale(1.5);
+}
+/* Grid View Alternative
+
+/* I'm adding explaination commments here so you know how this works.
+
+I'm also writing this so next time I edit this code I don't forget why 
+I did it this way and sit there confused for 30mins trying to figure it out. 
+
+BTW. Hello future Lithou. If you're reading this: You're welcome
+
+How it works: 
+This applies to an image if two conditions are met. 
+First condition is if the page has a css class of "grid"
+Second conditions is if no pipe is used when calling an image 
+
+examples: 
+![[test.jpg|alt text]] &lt;-- will not apply as pipe used to make custom alt text
+![[test.jpg]] &lt;-- will apply since no pipe used
+
+When no pipe is used, no alt attribute is called by the user.
+Obsidian will therefore set the alt attribute equal to the file name. (this is default if it changes, this will pobably break so look here first if it stops working)
+This rule will target any image with an alt attribute that has a period in it.
+Since all image files should follow "name.extension" all will contain a period.
+
+Note: One key to keep in mind is to not use a period as part of any other img flags. */
+
+/* .img-grid span.image-embed[alt*="."]{ 
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3px;
+}
+.img-grid img[alt*="."]{
+    max-height: 30vh;
+}
+
+.img-grid img[alt*="."]:hover{
+    transform: scale(1.5);
+} */
+```
+> 

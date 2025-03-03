@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "928f7371f5fe178d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3b2627086b14def",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a7487a0f1c353ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Highlights/Readwise/Books/Reproducible Research With R and RStudio.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reproducible Research With R and RStudio"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a3aba00d995c9c1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d4b60b1c57b097d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdb5cab0512d5e78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "16c6b39b08bbd5c5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "517f33f14056dff2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6b0503c9189a1851",
+    "type": "split",
+    "children": [
+      {
+        "id": "c22fa7d629247788",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc6cb3cb5faca949",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Highlights/Readwise/Books/Reproducible Research With R and RStudio.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Reproducible Research With R and RStudio"
+            }
+          },
+          {
+            "id": "d665fd2fdbfb3d44",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Highlights/Readwise/Books/Reproducible Research With R and RStudio.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Reproducible Research With R and RStudio"
+            }
+          },
+          {
+            "id": "5ba668142b80f59d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1f61568ea852f47b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Highlights/Readwise/Books/Reproducible Research With R and RStudio.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Reproducible Research With R and RStudio"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2a7487a0f1c353ff",
+  "lastOpenFiles": [
+    "Highlights/Readwise/Books/Reproducible Research With R and RStudio.md",
+    "Highlights/Readwise/Books/Free to Focus.md",
+    "Highlights/Readwise/Books/Design Your Work.md",
+    "Literature-Notes/Literature-Notes.md",
+    "PDFs/Weekly_Review_Checklist.pdf",
+    "PDFs/The Ultimate Guide to an Effective Weekly Review.pdf",
+    "Templates/Resource-Templates/Tools-Templates/Tool-Template.md",
+    "PDFs/PDFs.md",
+    "PDFs/Individual-Claim-Development-Models-and-Detailed-Actuarial-Reserves-in-Property-Casualty-Insurance-2021-04-06-1.pdf",
+    "PDFs/Blogging_Course_Workbook_v2.pdf",
+    "PDFs/Awesome R Package Development.pdf",
+    "Podcasts/Podcasts.md",
+    "Templates/Slipbox-Templates/Slipbox-Default-Template.md",
+    "Templates/README.md",
+    "Untitled.md",
+    "Templates/Resource-Templates/Misc-Resource-Templates/Kanban-Template.md",
+    "Templates/Resource-Templates/Misc-Resource-Templates/Embed-Template.md",
+    "Templates/Resource-Templates/Misc-Resource-Templates/Daily-Note-Template.md",
+    "Templates/Notes-From-Templates/Notes-From-Slipbox-Template.md",
+    "Templates/Personal-Templates/Person-Template.md",
+    "Templates/Code-Templates/Code-Python-Template.md",
+    "Templates/Experimental/Testing Templater Prompts.md",
+    "Templates/Experimental/Dataview-Slipbox.md",
+    "Tools/Developer Tools/Documentation/Static Site Generators/Jekyll.md",
+    "Tools/Developer Tools/Documentation/Static Site Generators/Hugo.md",
+    "Tools/Developer Tools/Documentation/Static Site Generators/Hexo.md",
+    "Tools/Developer Tools/Documentation/Static Site Generators/GitBook.md",
+    "Tools/Developer Tools/APIs/Swagger.md",
+    "Tools/Developer Tools/APIs/OpenAPI Specification.md",
+    "Tools/Utility/Utility.md",
+    "Tools/Utility/BloatBox.md"
+  ]
+}

@@ -4,32 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "fb4c2a192e7e5fac",
-        "type": "tabs",
-        "dimension": 40.792410714285715,
-        "children": [
-          {
-            "id": "762bedf0b42d778d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://app.raindrop.io/my/-1",
-                "title": "Unsorted",
-                "mode": "webview"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "Unsorted"
-            }
-          }
-        ]
-      },
-      {
         "id": "cb54c16cb724c6b6",
         "type": "tabs",
-        "dimension": 59.20758928571429,
+        "dimension": 57.22108145106092,
         "children": [
           {
             "id": "f5b97f7c034ea0d6",
@@ -37,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Projects/Data annotation.tech/Notes/Onboarding Guide.md",
-                "mode": "source",
+                "file": "06 Spaces/Obsidian Stuff & Things/My Obsidian Customization Screenshots.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -48,14 +25,116 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": true,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Onboarding Guide"
+              "title": "My Obsidian Customization Screenshots"
+            },
+            "group": "3ea0c9a0fb940e1c"
+          },
+          {
+            "id": "2bbc9d4103c2571e",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://notes.piratemoo.com/moo/moosint",
+                "title": "MOOSINT | pirate.moo's gitbook",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "MOOSINT | pirate.moo's gitbook"
+            }
+          },
+          {
+            "id": "94fa4415565f4d33",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://github.com/AnonCatalyst/Ominis-OSINT",
+                "title": "GitHub - AnonCatalyst/Ominis-OSINT: This Python application is an OSINT (Open Source Intelligence) tool called \"Ominis OSINT - Web Hunter.\" It performs online information gathering by querying Google for search results related to a user-inputted query. The tool extracts relevant information such as titles, URLs, and potential mentions of the query in the results.",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitHub - AnonCatalyst/Ominis-OSINT: This Python application is an OSINT (Open Source Intelligence) tool called \"Ominis OSINT - Web Hunter.\" It performs online information gathering by querying Google for search results related to a user-inputted query. The tool extracts relevant information such as titles, URLs, and potential mentions of the query in the results."
             }
           }
-        ]
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "f9cba58a336c44f3",
+        "type": "split",
+        "dimension": 42.77891854893908,
+        "children": [
+          {
+            "id": "237a543ea964c449",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4bc211e046b34cb3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "06 Spaces/Obsidian Stuff & Things/My Obsidian Customization Screenshots.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": -0.8,
+                      "nodeSizeMultiplier": 1.54738053336943,
+                      "lineSizeMultiplier": 1.33511574387437,
+                      "collapse-forces": false,
+                      "centerStrength": 0.63327467172059,
+                      "repelStrength": 13.7917963990795,
+                      "linkStrength": 0.252064437525382,
+                      "linkDistance": 30,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of My Obsidian Customization Screenshots"
+                },
+                "group": "3ea0c9a0fb940e1c"
+              }
+            ]
+          },
+          {
+            "id": "dc816ac2257b7673",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7a18d07f4dc88e6e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -67,48 +146,8 @@
       {
         "id": "6a5a46f35bfd6e3b",
         "type": "tabs",
+        "dimension": 72.44755244755244,
         "children": [
-          {
-            "id": "0d898f7a13d78898",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#webclip/unread",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "22f37e1f9d6c2be9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_data_/pinned/Sidebar Navigation.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sidebar Navigation"
-            }
-          },
           {
             "id": "fdd19e4ea68307e0",
             "type": "leaf",
@@ -133,20 +172,12 @@
             }
           }
         ],
-        "currentTab": 3
-      }
-    ],
-    "direction": "horizontal",
-    "width": 250.50260543823242
-  },
-  "right": {
-    "id": "a60f7122a537c574",
-    "type": "split",
-    "children": [
+        "currentTab": 1
+      },
       {
-        "id": "7e3ab805b43b8465",
+        "id": "069aec537b040a56",
         "type": "tabs",
-        "dimension": 23.410202655485673,
+        "dimension": 27.552447552447553,
         "children": [
           {
             "id": "37e27ebc27625004",
@@ -159,106 +190,58 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "acd963a0bcfcf3b2",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "3795fe9dac32b278",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "03 Notes/03 Notes.md",
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 03 Notes"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6fbf52eed911977e",
-        "type": "tabs",
-        "dimension": 40.74074074074074,
-        "children": [
-          {
-            "id": "4bc211e046b34cb3",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.71131717882767,
-                  "repelStrength": 14.2263435765534,
-                  "linkStrength": 1,
-                  "linkDistance": 153,
-                  "scale": 1,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
-        "id": "05b94618df81efb5",
-        "type": "tabs",
-        "dimension": 35.84905660377358,
-        "children": [
-          {
-            "id": "7a18d07f4dc88e6e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 516.5
+    "width": 368.5026054382324
+  },
+  "right": {
+    "id": "a60f7122a537c574",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e3ab805b43b8465",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "762bedf0b42d778d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://app.raindrop.io/my/-1",
+                "title": "Unsorted",
+                "mode": "webview"
+              },
+              "pinned": true,
+              "icon": "globe-2",
+              "title": "Unsorted"
+            }
+          },
+          {
+            "id": "ebe8419ade86d18a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://start.me/p/DPYPMz/the-ultimate-osint-collection",
+                "title": "The Ultimate OSINT Collection - Start.me",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "The Ultimate OSINT Collection - Start.me"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 730.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -274,53 +257,53 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7a18d07f4dc88e6e",
+  "active": "94fa4415565f4d33",
   "lastOpenFiles": [
-    "04 Projects/Data annotation.tech/Notes/Onboarding Guide.md",
-    "04 Projects/04 Projects.md",
-    "07 Unsorted/Local-first software You own your data, in spite of the cloud.md",
-    "07 Unsorted/foldermedia/Using Are.na for Research  by Jil Wright - Freedium/1212M2AjxAKPAAzyYQ9wqbw.png",
-    "07 Unsorted/foldermedia/Using Are.na for Research  by Jil Wright - Freedium/10nl7tysZ6b67vCv0feYyag.png",
-    "07 Unsorted/foldermedia/Using Are.na for Research  by Jil Wright - Freedium",
-    "07 Unsorted/foldermedia/Configuring the Web Clipper MarkDownload for a seamless workflow with Obsidian - Share & showcase - Obsidian Forum/slight_smile.png",
-    "07 Unsorted/foldermedia/Configuring the Web Clipper MarkDownload for a seamless workflow with Obsidian - Share & showcase - Obsidian Forum",
-    "04 Projects/Data annotation.tech/Notes/foldermedia/Maxis Instructions/AD_4nXfVmsOcfzhwq2n4iM-8IkjS_OsOxplnaxK0zXliiiptTtt68MZZUZZO4eyOaPV0gILin34bwo2isFJ8z818jys-k8qkDwrlvwsVJqm91nDqocJRNh1jevC_jUPB-8buh7TFkcDS.png",
-    "04 Projects/Data annotation.tech/Notes/foldermedia/Maxis Instructions/AD_4nXdkxrKkImVQNe_U_WbGGRChq9rGSNv-Ac2VCv_YR4RGQ5uPzSrI-LQzGtMY3_7nn7C3iRNUcwhevVZu2Di8ld_562o0VcbmSc9jo4ULygFiANDZ1CTMpa6X9-gy67V7yFkEV2jQ.png",
-    "04 Projects/Data annotation.tech/Notes/foldermedia/Maxis Instructions/AD_4nXea0ICGBiIncXHpu2lpSyoUpEkYvBvyFU1jDAf29c7HbE4vhYV5bz7HzD-LaO2qirXUvQWeW-jHXoUSo3ROnh0-r2Wl6naP4ckmIuZpAeJVRBy0V7MneKoToMkysMP2jearU759wA.png",
-    "04 Projects/Data annotation.tech/Notes/foldermedia/Maxis Instructions",
-    "04 Projects/Data annotation.tech/Notes/foldermedia/Raven - Images, Non-STEM - Create Fine-Grained Criteria and Rate Responses from Two Models (021225)/a98ef15b-b79f-4a71-b270-0fadc42644e0_a2616633-e0f2-4db8-8ec0-f42676461bde_e45fc769-c039-47d0-bc98-249.jpg",
-    "04 Projects/Data annotation.tech/Notes/foldermedia/Raven - Images, Non-STEM - Create Fine-Grained Criteria and Rate Responses from Two Models (021225)",
-    "04 Projects/Data annotation.tech/Notes/foldermedia",
-    "04 Projects/Data annotation.tech/Notes/New folder",
-    "07 Unsorted/foldermedia/prog - How to get a solid foundation in compsci mathematics/8a2662eb50224a5ac38247a6ebef11e7a855f79a.jpg",
-    "07 Unsorted/foldermedia/prog - How to get a solid foundation in compsci mathematics/7b7ad87b24b9ee971b955072c48d24ea5fbfcfc4.jpg",
-    "07 Unsorted/foldermedia/prog - How to get a solid foundation in compsci mathematics/6b3436e17d9cd818f693df3c9486c8876aded372.jpg",
-    "07 Unsorted/foldermedia/prog - How to get a solid foundation in compsci mathematics",
-    "07 Unsorted/foldermedia/Creating A Portable App A Guerilla Field Guide  PortableApps.com",
-    "07 Unsorted/foldermedia/Local-first software You own your data, in spite of the cloud",
-    "07 Unsorted/07 Unsorted.md",
-    "References/Vivarium.md",
-    "04 Projects/Data annotation.tech/Notes/Raven - Images, Non-STEM - Create Fine-Grained Criteria and Rate Responses from Two Models (021225).md",
-    "04 Projects/Data annotation.tech/Notes/Qualification Maxis Create Agentic Task and Actions (single-turn) Successful submissions grant access to regular $30+hr work.md",
-    "References/Mystery.md",
-    "References/Molly McCann.md",
-    "04 Projects/Data annotation.tech/Notes/Maxis Instructions.md",
-    "References/Lorcan Finnegan.md",
-    "References/Imogen Poots.md",
-    "References/Horror.md",
-    "04 Projects/Data annotation.tech/Notes/DATA ANNOTATION - BASEBALL NOTES.md",
-    "References/Danielle Ryan.md",
-    "05 Resources/Using 'Group By' in DataviewJS.md",
-    "06 Spaces/06 Spaces.md",
-    "05 Resources/DataView Snippet - list properties and their status in the file.md",
-    "05 Resources/README - Obsidian Starter Vault by SoRobby.md",
-    "05 Resources/Element Structure and Format.md",
-    "05 Resources/Adding a custom font to Obsidian Android iOS.md",
-    "_data_/templates/resources/Resource.md",
-    "Inbox/Untitled.md",
-    "05 Resources/05 Resources.md",
-    "04 Projects/Data annotation.tech/Home.md",
-    "04 Projects/Data annotation.tech/References.md",
-    "03 Notes/Mobile"
+    "06 Spaces/Obsidian Stuff & Things/My Obsidian Customization Screenshots.md",
+    "Untitled 4.md",
+    "06 Spaces/Obsidian Stuff & Things/foldermedia/{9D0F371E-11CE-4079-8A52-4AC804E8C7D3}.png",
+    "Dashboard.md",
+    "02 Learning/02 Learning.md",
+    "03 Notes/Obsidian/Obsidian.md",
+    "_data_/pinned/Sidebar Navigation.md",
+    "KaaS/KaaS.md",
+    "Untitled 3.md",
+    "KaaS/3-Resources/Templates/Templates.md",
+    "Untitled 2.md",
+    "KaaS/3-Resources/PDFs/PDFs.md",
+    "KaaS/3-Resources/Literature-Notes/Literature-Notes.md",
+    "KaaS/3-Resources/Highlights/Highlights.md",
+    "KaaS/3-Resources/Embeds/Embeds.md",
+    "KaaS/3-Resources/Dictionary/Dictionary.md",
+    "KaaS/3-Resources/Clippings/Clippings.md",
+    "KaaS/3-Resources/Citations/Citations.md",
+    "KaaS/3-Resources/3-Resources.md",
+    "KaaS/3-Resources/Book-Notes/Book-Notes.md",
+    "KaaS/0-Slipbox/0-Slipbox.md",
+    "KaaS/2-Areas/2-Areas.md",
+    "Untitled 1.md",
+    "KaaS/2-Areas/Content/Content.md",
+    "KaaS/2-Areas/Daily-Notes/Daily-Notes.md",
+    "KaaS/2-Areas/Goals/Goals.md",
+    "KaaS/2-Areas/Guides/Guides.md",
+    "06 Spaces/Books/DATAVIEW BOOK SCRIPTS",
+    "06 Spaces/Books/OBSIDIAN - DATAVIEW BOOK SCRIPTS",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages/Shiny R Packages",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages/General R Packages",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages/R Package Tools",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages/Database R Packages",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages/Data Manipulation Packages",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages/Actuarial R Packages",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages/API R Packages",
+    "KaaS/3-Resources/Tools/Developer Tools/Documentation/Help Docs/_assets/Pasted image 20220701103614.png",
+    "KaaS/3-Resources/Tools/Developer Tools/Documentation/Help Docs/_assets/Pasted image 20220701103425.png",
+    "KaaS/3-Resources/Tools/Developer Tools/Languages/R/R Packages",
+    "KaaS/3-Resources/Tools/Developer Tools/Command Line Utilities/_assets/Pasted image 20220812155046.png",
+    "KaaS/3-Resources/Tools/Web Browsers/_assets/Pasted image 20220213211409.png",
+    "KaaS/3-Resources/Tools/Utility/_assets/Topgrade-Example.gif",
+    "KaaS/3-Resources/Tools/Productivity Tools/Productivity System.svg",
+    "KaaS/2-Areas/Code/VBA/_assets/Pasted image 20220331192157.png",
+    "KaaS/2-Areas/Code/Registry/_assets/Pasted image 20220909182538.png",
+    "KaaS/2-Areas/Code/Excel/_assets/Pasted image 20220903223534.png"
   ]
 }

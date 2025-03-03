@@ -7,6 +7,8 @@ tags:
 cssclasses:
   - cards
   - dashboard
+  - page-grid
+  - pen-green
 ---
 
 # Dashboard
